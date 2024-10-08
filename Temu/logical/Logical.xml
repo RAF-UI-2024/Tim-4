@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7757B5CF-6F05-A79D-FB79-735CCEE77524" mainViewID="6B043C7C-A3D1-2E4E-C772-9A439FD5C5D9">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-08 15:49:17 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
