@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C1ECEE7-7AA7-F470-FBD9-61CBB176D2AE" name="Lokacija">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:18:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokacije" id="4D46656F-4EE6-D697-83A9-736F69DC65C8">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_drzave" id="38494678-2F6B-5011-F423-C1BC24998BAA">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DBE1BA7-6973-7F09-7CEF-574FBEEFEB7F" referredColumn="A3886D27-7E1F-BF1A-540E-780DFDDF2D9A"/>
+</associations>
+</Column>
+<Column name="grad" id="043FDA68-0AD0-80E7-26DE-D2842244969A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postanski_broj" id="956A983D-37CC-17ED-DB80-99BD40C508D8">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="39473EB9-7FA9-D2FE-04D1-0FB3B341C1CB">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3588E03-82F5-8D50-B775-53C5C09A8495" name="Lokacija_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA87EC6B-C4E9-3515-CD29-6828B53CB203" name="TABLE_8_Drzava_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38494678-2F6B-5011-F423-C1BC24998BAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE1CBBD8-2C24-9477-A44F-F86D9E9FAA5F" name="Porudzbina">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:36:01 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_porudzbine" id="712BB5DF-4842-F80C-A205-E217ED796031">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_korisnika" id="EFA4FE27-45ED-A615-962D-FAEF8BFDD90F">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941D6A71-0372-CA5E-A774-EB4108B9F661" referredColumn="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
+</associations>
+</Column>
+<Column name="sifra_porudzbine" id="7AF21EBF-85BC-E7FE-979E-642DD896A1E9">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kurirske_sluzbe" id="1BDDF6F9-F86C-800D-3493-5964B9DF9D4E">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C8924E8-92DA-F03D-B2A4-A13C15D862B8" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
+</associations>
+</Column>
+<Column name="id_lokacije" id="DEBF67E9-F0CD-B088-F6B9-949BDD871BEF">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7660E64-DD1F-222E-6741-9122500DC4CC" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE46CB79-32C6-430D-215E-55BBF903EAB5" name="Porudzbina_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="712BB5DF-4842-F80C-A205-E217ED796031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9018660-4CD1-E7AE-3DE8-B87B42A6021B" name="TABLE_10_Korisnik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFA4FE27-45ED-A615-962D-FAEF8BFDD90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FC749DA-07B3-FED2-3C93-067D6CE376D6" name="TABLE_10_Kurirska sluzba_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BDDF6F9-F86C-800D-3493-5964B9DF9D4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B2DAFEE-A240-3C91-8FEA-E04030412DE0" name="TABLE_10_Lokacija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEBF67E9-F0CD-B088-F6B9-949BDD871BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

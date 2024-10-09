@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5016413-169C-753B-40FD-EC47144FE142" name="Kurirska sluzba">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:12:59 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kurirske_sluzbe" id="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:14:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="D71ADF5F-E550-C21F-F55D-2B545F836A14">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:14:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41FA4952-7869-8968-780A-C72B514009EE" name="Kurirska sluzba_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:14:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

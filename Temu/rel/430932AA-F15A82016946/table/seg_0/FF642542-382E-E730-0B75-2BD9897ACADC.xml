@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF642542-382E-E730-0B75-2BD9897ACADC" name="Korisnik">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:32:01 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_korisnika" id="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="1B7EBE45-8158-FF26-D6AD-56FDC970BA82">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="3BAF71CF-AFC3-923F-5CAA-6058E616F853">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mejl" id="FF342D86-695A-7D54-0E2D-5E682F064CD2">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sifra" id="F3C7AD1B-65B2-D585-BC02-B8D6CE43F434">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94F5EA27-69A9-BE51-A018-99F5B3D8E6E4" name="Korisnik_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

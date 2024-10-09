@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FEE1C00-510B-C0B1-B009-1D81363A874E" name="Recenzija">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:30:27 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recenzije" id="550326CC-2769-F1F4-ADA1-E50AA32A4C2C">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_proizvoda" id="7A6294EC-209F-E374-9155-9ACD87936396">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70AB4358-0D75-C4BB-E414-26DEB97DC4E0" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+<Column name="id_korisnika" id="D385946E-435B-A9E4-9333-B918AAD9167A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB743461-B619-31AE-F6E2-C80266EB8B29" referredColumn="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
+</associations>
+</Column>
+<Column name="ocena" id="6666FD73-5959-B56C-4A25-BE3C2608C766">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentar" id="0AA3A14B-2CA7-49A2-DAAA-41D2C343D532">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="457BD3EC-10EA-0A31-9FEE-DB7DAE03234E" name="Recenzija_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="550326CC-2769-F1F4-ADA1-E50AA32A4C2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E593761-05D1-3B6F-36B5-35EB4DA7055F" name="TABLE_9_Proizvod_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A6294EC-209F-E374-9155-9ACD87936396"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0A12935-E83C-58BF-88D6-C771C7B9E43C" name="TABLE_9_Korisnik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-09 14:34:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D385946E-435B-A9E4-9333-B918AAD9167A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
