@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFE1279B-01F0-426F-8D99-228E05C69127" name="Slika">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:26:26 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_slike" id="18E2FB21-310E-FA84-0D75-947439E4D804">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:28:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slika" id="CBACC786-68C4-22D0-95CA-7429A68B63F4">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:28:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_proizvoda" id="DA527E35-F877-2E8C-21D7-68E08B76264A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:28:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B25D2E79-6234-120C-46E6-37190E6FF497" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BE38FE4-C132-CE06-3367-FBF6A0CE2598" name="Slika_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:28:18 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18E2FB21-310E-FA84-0D75-947439E4D804"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC09970B-A20A-A62A-F552-595A680F5476" name="TABLE_18_Proizvod_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:28:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA527E35-F877-2E8C-21D7-68E08B76264A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

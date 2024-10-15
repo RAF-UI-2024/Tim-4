@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED02F142-C9BD-0640-9BA6-CF77DDE64B1A" name="Lokacije korisnika">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:30:59 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_korisnika" id="5852D936-E301-FAE0-4A65-49E823CCBCD3">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:32:03 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9BE0105-2DBF-58FC-F346-B1F64C3A0A0C" referredColumn="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
+</associations>
+</Column>
+<Column name="id_lokacije" id="4B68985C-EF77-2E6D-25B8-226A9254822D">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:32:03 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5506E75F-84C7-A5C3-FC96-3BD77C1343B3" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9E922FE-958C-83F0-BFEA-25B96771C297" name="Lokacije korisnika_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:32:03 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5852D936-E301-FAE0-4A65-49E823CCBCD3"/>
+<colUsage columnID="4B68985C-EF77-2E6D-25B8-226A9254822D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62995842-D788-D83C-52B7-103276D31456" name="TABLE_11_Korisnik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:32:03 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5852D936-E301-FAE0-4A65-49E823CCBCD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="642527A2-38BF-CB65-ECC7-0FF5C70EEB86" name="TABLE_11_Lokacija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:32:03 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B68985C-EF77-2E6D-25B8-226A9254822D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

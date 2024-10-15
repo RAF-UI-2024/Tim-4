@@ -51,9 +51,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9C8924E8-92DA-F03D-B2A4-A13C15D862B8" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
-</associations>
 </Column>
 <Column name="id_lokacije" id="DEBF67E9-F0CD-B088-F6B9-949BDD871BEF">
 <createdBy>Ana Mandic</createdBy>
@@ -91,17 +88,7 @@
 <colUsage columnID="EFA4FE27-45ED-A615-962D-FAEF8BFDD90F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5FC749DA-07B3-FED2-3C93-067D6CE376D6" name="TABLE_10_Kurirska sluzba_FK">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:42:04 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1BDDF6F9-F86C-800D-3493-5964B9DF9D4E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4B2DAFEE-A240-3C91-8FEA-E04030412DE0" name="TABLE_10_Lokacija_FK">
+<ind_PK_UK id="4B2DAFEE-A240-3C91-8FEA-E04030412DE0" name="TABLE_10_Kurirska sluzba_FKv2">
 <createdBy>Ana Mandic</createdBy>
 <createdTime>2024-10-09 14:42:04 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>

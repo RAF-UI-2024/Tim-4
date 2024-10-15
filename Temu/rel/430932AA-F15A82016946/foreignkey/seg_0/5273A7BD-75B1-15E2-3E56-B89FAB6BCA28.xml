@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5273A7BD-75B1-15E2-3E56-B89FAB6BCA28" containerWithKeyObject="4BB016CE-5AC8-BAB4-0803-DAC8858E5FDD" localFKIndex="D4BD9AE2-7036-27A3-C450-18A5E3EB9977" name="Proizvodi u okviru porudzbine_Cenovnik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:08:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Cenovnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64585570-B201-18C6-1DDE-C7CE15EB39BD</referredTableID>
+<keyObject>D4697EBA-FD6D-A89A-6128-56F3030AFF7E</keyObject>
+<referredKeyID>D4697EBA-FD6D-A89A-6128-56F3030AFF7E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cenovnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

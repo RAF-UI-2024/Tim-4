@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BB016CE-5AC8-BAB4-0803-DAC8858E5FDD" name="Proizvodi u okviru porudzbine">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:37:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_porudzbine" id="03324978-98F0-CDB9-C922-4A67BF33DC94">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:38:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A55EFCC0-6C12-6274-9A04-C9B28F28E8A9" referredColumn="712BB5DF-4842-F80C-A205-E217ED796031"/>
+</associations>
+</Column>
+<Column name="id_proizvoda" id="DDC5DC47-D13D-AE91-CBE0-81016C8C9130">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:38:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FB1FC5C-779F-7E4E-B068-4891C8FF32D2" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+<Column name="id_cenovnika" id="29957CFC-18CE-38DC-68D2-836FFE98BC96">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:08:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5273A7BD-75B1-15E2-3E56-B89FAB6BCA28" referredColumn="6F4883B9-20C2-0045-4C3B-0CF4CDEBCDB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DC13C0D-41A1-E6D6-9F6C-6155917133D9" name="Proizvodi u okviru porudzbine_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:38:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03324978-98F0-CDB9-C922-4A67BF33DC94"/>
+<colUsage columnID="DDC5DC47-D13D-AE91-CBE0-81016C8C9130"/>
+<colUsage columnID="29957CFC-18CE-38DC-68D2-836FFE98BC96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77C0E314-AA9E-2B36-4640-632ADEA76438" name="TABLE_12_Porudzbina_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:38:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03324978-98F0-CDB9-C922-4A67BF33DC94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4388E48-FD48-C23A-635C-14619431D878" name="TABLE_12_Proizvod_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:38:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC5DC47-D13D-AE91-CBE0-81016C8C9130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4BD9AE2-7036-27A3-C450-18A5E3EB9977" name="Proizvodi u okviru porudzbine_Cenovnik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:08:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29957CFC-18CE-38DC-68D2-836FFE98BC96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

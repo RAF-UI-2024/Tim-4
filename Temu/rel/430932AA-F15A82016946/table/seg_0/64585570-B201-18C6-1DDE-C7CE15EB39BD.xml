@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64585570-B201-18C6-1DDE-C7CE15EB39BD" name="Cenovnik">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:48:48 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cenovnika" id="6F4883B9-20C2-0045-4C3B-0CF4CDEBCDB9">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:52:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="6C1D6116-F278-0578-B41F-969F4FCFA56D">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:52:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="219846F6-7AAA-368C-A64C-AB432130ED34">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:52:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="2898FE52-D4C6-B632-D3EC-AAB2C2FFF2EC">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:52:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4697EBA-FD6D-A89A-6128-56F3030AFF7E" name="Cenovnik_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:52:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F4883B9-20C2-0045-4C3B-0CF4CDEBCDB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

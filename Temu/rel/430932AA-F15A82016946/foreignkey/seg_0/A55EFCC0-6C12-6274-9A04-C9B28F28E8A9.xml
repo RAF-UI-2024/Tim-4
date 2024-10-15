@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A55EFCC0-6C12-6274-9A04-C9B28F28E8A9" containerWithKeyObject="4BB016CE-5AC8-BAB4-0803-DAC8858E5FDD" localFKIndex="77C0E314-AA9E-2B36-4640-632ADEA76438" name="TABLE_12_Porudzbina_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 15:38:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Porudzbina</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE1CBBD8-2C24-9477-A44F-F86D9E9FAA5F</referredTableID>
+<keyObject>CE46CB79-32C6-430D-215E-55BBF903EAB5</keyObject>
+<referredKeyID>CE46CB79-32C6-430D-215E-55BBF903EAB5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_porudzbine</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

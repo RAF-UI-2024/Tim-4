@@ -29,16 +29,6 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="DEDCDFDF-CD14-48FD-F8F0-21DA98FB3BD6">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:06:04 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="opis" id="0C11860D-6E93-8AB4-F10E-1EA8C014D624">
 <createdBy>Ana Mandic</createdBy>
 <createdTime>2024-10-09 14:06:04 UTC</createdTime>
@@ -63,6 +53,17 @@
 <associations>
 <colAssociation fkAssociation="43CCA502-C54B-623D-786D-EEE4DE86415F" referredColumn="DFEEA08B-340D-F0DA-F29C-432F8E69FD4B"/>
 </associations>
+</Column>
+<Column name="prosecna_ocena" id="00C842CB-42BF-8C29-C85D-E1E12AAA4DA0">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-10-15 16:13:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

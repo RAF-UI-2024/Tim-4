@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7660E64-DD1F-222E-6741-9122500DC4CC" containerWithKeyObject="FE1CBBD8-2C24-9477-A44F-F86D9E9FAA5F" localFKIndex="4B2DAFEE-A240-3C91-8FEA-E04030412DE0" name="TABLE_10_Kurirska sluzba_FKv2">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5506E75F-84C7-A5C3-FC96-3BD77C1343B3" containerWithKeyObject="ED02F142-C9BD-0640-9BA6-CF77DDE64B1A" localFKIndex="642527A2-38BF-CB65-ECC7-0FF5C70EEB86" name="TABLE_11_Lokacija_FK">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:42:04 UTC</createdTime>
+<createdTime>2024-10-15 15:32:03 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <referredTableLongName>Lokacija</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
