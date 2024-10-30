@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFAB5703-6C40-0284-E3B9-1FCEF7357007" name="Slanje porudzbine">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:05:47 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_slanja_porudzbine" id="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_porudzbine" id="C9D648B2-5B08-606A-9588-645947202593">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D9FCF57-9DC9-4BC9-A245-B3328D4E2EF4" referredColumn="712BB5DF-4842-F80C-A205-E217ED796031"/>
+</associations>
+</Column>
+<Column name="id_kurirske_sluzbe" id="524A466B-7611-AA2D-EEEB-32A740B1D5EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72E55077-B84D-FF98-9F4C-1A76574E1ED7" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
+</associations>
+</Column>
+<Column name="id_distibutivnog_centra" id="694D079D-3A0B-E869-2476-0B1DE62433FF">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:11:35 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E25028E-BA9F-15C4-91A0-E6073DD0FED0" referredColumn="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6FC414F-794C-6A73-F13C-14584B438FDF" name="Isporuka_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="475C2F63-2BD0-0825-AE72-5F954FAFB5BD" name="TABLE_37_Porudzbina_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9D648B2-5B08-606A-9588-645947202593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B44846BE-EDB9-C744-CFB7-3EE1DA79CD64" name="TABLE_37_Kurirska sluzba_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="524A466B-7611-AA2D-EEEB-32A740B1D5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="333CF0BE-828F-10A2-2B51-48580796850F" name="Slanje porudzbine_Distibutivni Centar_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:11:35 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="694D079D-3A0B-E869-2476-0B1DE62433FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

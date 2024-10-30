@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41FADFE5-3192-48EA-5539-7C21F422DA66" name="Rezultati Inspekcije">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:35:13 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_47</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rezultata" id="3D0C6B2D-ED7B-1C6F-24B2-FF01E6826127">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:36:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="85460753-CE18-A91E-9760-60A5CFB01D31">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:36:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_inspekcije" id="BF42B030-F06A-4E3B-B788-300A3F067EDF">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:36:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92BC460E-F41D-47F4-BDFB-4B28ADEC1538" referredColumn="75279C66-D58F-6009-A945-CF2669D892F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B543260B-C376-6271-976F-617C9AD9AFE2" name="Rezultati Inspekcije_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:36:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D0C6B2D-ED7B-1C6F-24B2-FF01E6826127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C2D573C-2BCC-4DF7-A81C-3D8547C147E3" name="TABLE_47_Inspekcija_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:36:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF42B030-F06A-4E3B-B788-300A3F067EDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

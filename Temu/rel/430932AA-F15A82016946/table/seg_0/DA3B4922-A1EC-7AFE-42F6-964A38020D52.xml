@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA3B4922-A1EC-7AFE-42F6-964A38020D52" name="Tip popusta">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:36:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_tipa_popusta" id="8A2B9F9C-D8D4-E843-7DFB-1BA8B04DBAFA">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:37:30 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip" id="416FF553-F712-7EF9-B5A7-4C5BC86C622C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:37:30 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F38783AB-FFBF-DA13-4EA3-940DDBACD135" name="Tip popusta_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:37:30 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A2B9F9C-D8D4-E843-7DFB-1BA8B04DBAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92115E03-F57B-3D19-6E19-E5279EF2E145" name="Cena">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:32:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cena" id="0D017F33-5ED7-C04A-FA6C-E32C0DBEC784">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:33:12 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cenovnika" id="30A94E2A-DE30-45A9-4C9E-702EE63931D3">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:33:12 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="205F2DCE-CF41-A0D3-7B59-B533D71F44DE" referredColumn="6F4883B9-20C2-0045-4C3B-0CF4CDEBCDB9"/>
+</associations>
+</Column>
+<Column name="iznos" id="7809A16C-A0C5-0D3C-056D-CCE4D892DBC9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:34:41 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name=" id_popusta" id="B6502F05-01CE-4B87-5707-0D86E3F141C5">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:41:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="344CAAA3-D2A8-812E-BB93-1D4396B6E2D1" referredColumn="C57A81E9-107F-0F8E-C159-E5BDCA66FBEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A134C91-0AAB-CC0E-59FC-A2A1A73F1FA5" name="Cena_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:33:12 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D017F33-5ED7-C04A-FA6C-E32C0DBEC784"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73667DD5-CAD8-9F25-8EBC-1E6826954280" name="TABLE_32_Cenovnik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:33:12 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A94E2A-DE30-45A9-4C9E-702EE63931D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE82BA52-686F-885F-1CD4-1F07DA344C84" name="Cena_Popust_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:41:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6502F05-01CE-4B87-5707-0D86E3F141C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

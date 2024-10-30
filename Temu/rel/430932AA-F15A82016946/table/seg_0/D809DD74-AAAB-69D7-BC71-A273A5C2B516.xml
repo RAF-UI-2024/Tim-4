@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D809DD74-AAAB-69D7-BC71-A273A5C2B516" name="Skladište">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:25:35 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_skladista" id="B7636209-EBE1-A715-7411-698B891BAFA5">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:27:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="799629B2-E6C9-78A2-674C-CD1D0E259726">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:27:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="4A303B26-730C-5C80-D236-7E01714A66AA">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:27:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_grada" id="8BE147D7-02A2-809D-6BA3-FF696C98713E">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:37:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89626230-A863-C566-F937-1EAAF294B467" referredColumn="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6929887-B071-2B0F-731B-9528836BA69D" name="Skladište_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:27:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7636209-EBE1-A715-7411-698B891BAFA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48F8496B-1B07-7FA6-CCB4-BDFEA24C1C0D" name="Skladište_Grad_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:37:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BE147D7-02A2-809D-6BA3-FF696C98713E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -18,16 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="6C1D6116-F278-0578-B41F-969F4FCFA56D">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-15 15:52:02 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="datum_od" id="219846F6-7AAA-368C-A64C-AB432130ED34">
 <createdBy>Ana Mandic</createdBy>
 <createdTime>2024-10-15 15:52:02 UTC</createdTime>

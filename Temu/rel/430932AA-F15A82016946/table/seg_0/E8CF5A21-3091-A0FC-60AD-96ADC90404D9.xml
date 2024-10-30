@@ -65,6 +65,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_cena" id="526B907F-6F8F-7B85-B49E-95D9AA3B0D1A">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:46:33 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B874447-B199-6F41-DFF1-584AA6D98AAB" referredColumn="0D017F33-5ED7-C04A-FA6C-E32C0DBEC784"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6B5A74BF-F53D-496B-C24B-03368BDFBC35" name="Proizvod_PK">
@@ -86,6 +99,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="88FA7E60-A414-0799-0F90-63BF997E3F2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45999282-C03F-9CA8-69E8-8AB4FC59677C" name="Proizvod_Cena_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:46:33 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="526B907F-6F8F-7B85-B49E-95D9AA3B0D1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

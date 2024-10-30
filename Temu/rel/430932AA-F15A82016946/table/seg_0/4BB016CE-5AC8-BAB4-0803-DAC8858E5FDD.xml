@@ -34,19 +34,6 @@
 <colAssociation fkAssociation="6FB1FC5C-779F-7E4E-B068-4891C8FF32D2" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
 </associations>
 </Column>
-<Column name="id_cenovnika" id="29957CFC-18CE-38DC-68D2-836FFE98BC96">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-15 16:08:51 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5273A7BD-75B1-15E2-3E56-B89FAB6BCA28" referredColumn="6F4883B9-20C2-0045-4C3B-0CF4CDEBCDB9"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7DC13C0D-41A1-E6D6-9F6C-6155917133D9" name="Proizvodi u okviru porudzbine_PK">
@@ -59,7 +46,6 @@
 <indexColumnUsage>
 <colUsage columnID="03324978-98F0-CDB9-C922-4A67BF33DC94"/>
 <colUsage columnID="DDC5DC47-D13D-AE91-CBE0-81016C8C9130"/>
-<colUsage columnID="29957CFC-18CE-38DC-68D2-836FFE98BC96"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="77C0E314-AA9E-2B36-4640-632ADEA76438" name="TABLE_12_Porudzbina_FK">
@@ -80,16 +66,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DDC5DC47-D13D-AE91-CBE0-81016C8C9130"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D4BD9AE2-7036-27A3-C450-18A5E3EB9977" name="Proizvodi u okviru porudzbine_Cenovnik_FK">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-15 16:08:51 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="29957CFC-18CE-38DC-68D2-836FFE98BC96"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

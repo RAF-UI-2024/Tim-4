@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EF16AD0-046C-AAB4-D2C3-BE8554D6DE87" name="Proizvdi u Skladištu">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:41:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_skladista" id="B473C8C6-8C85-C7C5-D0C4-06FE048F04AF">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:43:25 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F00F6456-D461-B49E-DF60-D807FB87AF59" referredColumn="B7636209-EBE1-A715-7411-698B891BAFA5"/>
+</associations>
+</Column>
+<Column name="id_proizvoda" id="EBDA5CCB-C6C7-2622-23CD-C4A1DAE0D889">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:43:25 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1C0D33B-44ED-908C-4D82-9862D0C5B86B" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F4451F1-8AE9-4858-E648-608519F15CC2" name="Proizvdi u Skladištu_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:43:25 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B473C8C6-8C85-C7C5-D0C4-06FE048F04AF"/>
+<colUsage columnID="EBDA5CCB-C6C7-2622-23CD-C4A1DAE0D889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3FE9B5A-4070-3A7A-E711-24C9E66183CA" name="TABLE_22_Skladište_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:43:25 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B473C8C6-8C85-C7C5-D0C4-06FE048F04AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10B7B6B1-CDE0-C6E8-6CFC-A9CE3F310E2E" name="TABLE_22_Proizvod_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:43:25 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBDA5CCB-C6C7-2622-23CD-C4A1DAE0D889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

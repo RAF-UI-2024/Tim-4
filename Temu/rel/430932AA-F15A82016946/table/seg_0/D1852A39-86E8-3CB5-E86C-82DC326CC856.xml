@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1852A39-86E8-3CB5-E86C-82DC326CC856" name="Popust">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:35:24 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_popusta" id="C57A81E9-107F-0F8E-C159-E5BDCA66FBEB">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:36:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipa_popusta" id="30EA4155-2F77-BB76-2043-A964D7DC1299">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:36:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FAF0D83-76CE-C3B0-60F7-1428287F581C" referredColumn="8A2B9F9C-D8D4-E843-7DFB-1BA8B04DBAFA"/>
+</associations>
+</Column>
+<Column name="broj" id="19B2793B-FA67-B78F-7223-591E125F1FC9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:36:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D84800E-E05F-E444-1D1A-E501D28BEFCD" name="Popust_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:36:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C57A81E9-107F-0F8E-C159-E5BDCA66FBEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0F9E1BC-0A4B-0360-EE32-546190A18231" name="Popust_Tip popusta_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 14:37:47 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30EA4155-2F77-BB76-2043-A964D7DC1299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

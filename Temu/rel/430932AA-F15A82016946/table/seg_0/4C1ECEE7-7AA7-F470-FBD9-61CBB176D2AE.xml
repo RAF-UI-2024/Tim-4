@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_drzave" id="38494678-2F6B-5011-F423-C1BC24998BAA">
+<Column name="id_grada" id="38494678-2F6B-5011-F423-C1BC24998BAA">
 <createdBy>Ana Mandic</createdBy>
 <createdTime>2024-10-09 14:29:39 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
@@ -28,7 +28,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1DBE1BA7-6973-7F09-7CEF-574FBEEFEB7F" referredColumn="A3886D27-7E1F-BF1A-540E-780DFDDF2D9A"/>
+<colAssociation fkAssociation="685C3726-9A50-7CD5-79A5-7A893ED67E3A" referredColumn="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
 </associations>
 </Column>
 <Column name="grad" id="043FDA68-0AD0-80E7-26DE-D2842244969A">
@@ -76,9 +76,9 @@
 <colUsage columnID="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BA87EC6B-C4E9-3515-CD29-6828B53CB203" name="TABLE_8_Drzava_FK">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<ind_PK_UK id="5BB25E5B-C28A-A7FA-C189-6393CB92EE7B" name="Lokacija_Grad_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:36:58 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

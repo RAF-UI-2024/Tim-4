@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF7E4428-BBF8-F7FB-914D-AF824E6DF6A9" containerWithKeyObject="30A89669-E394-566F-882E-DAACCF41F22F" localFKIndex="FA41AC0B-8391-0F65-16BF-D99A1310F101" name="Tag Podkategorije_Tag_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:54:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Tag</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA869443-CE12-B941-C6A9-1461021B0B3C</referredTableID>
+<keyObject>84AF3057-38D6-3D9B-B7FB-101347F2E20B</keyObject>
+<referredKeyID>84AF3057-38D6-3D9B-B7FB-101347F2E20B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_taga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30A89669-E394-566F-882E-DAACCF41F22F" name="Tag Podkategorije">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:51:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_podkaegorije" id="B3DF514D-9AD1-67E1-1F2B-8BE9F29CBE4B">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:53:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7DAA6D6-08AC-13D6-D941-F54F2D6356BD" referredColumn="DFEEA08B-340D-F0DA-F29C-432F8E69FD4B"/>
+</associations>
+</Column>
+<Column name="id_taga" id="E42AB74A-E3E4-B00E-C6DF-D6B26EC39A40">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:53:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF7E4428-BBF8-F7FB-914D-AF824E6DF6A9" referredColumn="7BB3DC12-3549-CC11-D547-C17A795102D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B04610A-BC0E-C087-1E7F-6296361671ED" name="Tag Podkategorije_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:53:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3DF514D-9AD1-67E1-1F2B-8BE9F29CBE4B"/>
+<colUsage columnID="E42AB74A-E3E4-B00E-C6DF-D6B26EC39A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8F12112-F549-6D50-EE9D-25CDE0BAC5C0" name="TABLE_24_Potkategorija_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:53:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3DF514D-9AD1-67E1-1F2B-8BE9F29CBE4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA41AC0B-8391-0F65-16BF-D99A1310F101" name="Tag Podkategorije_Tag_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 13:54:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E42AB74A-E3E4-B00E-C6DF-D6B26EC39A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

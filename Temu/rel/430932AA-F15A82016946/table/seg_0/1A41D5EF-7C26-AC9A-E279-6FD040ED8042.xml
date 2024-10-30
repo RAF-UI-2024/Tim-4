@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A41D5EF-7C26-AC9A-E279-6FD040ED8042" name="Distibutivni Centar">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:08:31 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_distributivno_centar" id="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:10:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="513ED61B-0F9B-D7C9-2F75-14E0FAD152AC">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:10:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_grad" id="842A0678-2272-E9A3-08CF-C5C16F714F3F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:10:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="975CD831-4569-FFEE-3B4C-EBF1D2C45446" referredColumn="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E62E1E7A-AC6F-5F23-E43A-329C5A86D263" name="Distibutivni Centar_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:10:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C64BC5C5-060B-0EB8-DB99-ADD0F4F9040E" name="TABLE_38_Grad_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-10-30 15:10:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="842A0678-2272-E9A3-08CF-C5C16F714F3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
