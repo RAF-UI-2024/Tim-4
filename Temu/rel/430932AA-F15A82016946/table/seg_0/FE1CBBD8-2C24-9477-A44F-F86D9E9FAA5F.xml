@@ -27,9 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="941D6A71-0372-CA5E-A774-EB4108B9F661" referredColumn="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
-</associations>
 </Column>
 <Column name="sifra_porudzbine" id="7AF21EBF-85BC-E7FE-979E-642DD896A1E9">
 <createdBy>Ana Mandic</createdBy>
@@ -55,6 +52,20 @@
 <colAssociation fkAssociation="F7660E64-DD1F-222E-6741-9122500DC4CC" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
 </associations>
 </Column>
+<Column name="Korisnik_id_Osobe" id="D47BC306-E706-D106-E170-588996E9E1BC">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:14:10 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941D6A71-0372-CA5E-A774-EB4108B9F661" referredColumn="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CE46CB79-32C6-430D-215E-55BBF903EAB5" name="Porudzbina_PK">
@@ -75,7 +86,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EFA4FE27-45ED-A615-962D-FAEF8BFDD90F"/>
+<colUsage columnID="D47BC306-E706-D106-E170-588996E9E1BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4B2DAFEE-A240-3C91-8FEA-E04030412DE0" name="TABLE_10_Kurirska sluzba_FKv2">

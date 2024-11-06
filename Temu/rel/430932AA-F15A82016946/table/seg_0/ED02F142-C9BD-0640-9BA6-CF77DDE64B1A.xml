@@ -17,9 +17,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A9BE0105-2DBF-58FC-F346-B1F64C3A0A0C" referredColumn="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
-</associations>
 </Column>
 <Column name="id_lokacije" id="4B68985C-EF77-2E6D-25B8-226A9254822D">
 <createdBy>Ana Mandic</createdBy>
@@ -32,6 +29,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5506E75F-84C7-A5C3-FC96-3BD77C1343B3" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+<Column name="Korisnik_id_Osobe" id="0D8F8F75-42D0-77FA-67CC-6C940B83A13E">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:14:10 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9BE0105-2DBF-58FC-F346-B1F64C3A0A0C" referredColumn="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
 </associations>
 </Column>
 </columns>
@@ -55,7 +66,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5852D936-E301-FAE0-4A65-49E823CCBCD3"/>
+<colUsage columnID="0D8F8F75-42D0-77FA-67CC-6C940B83A13E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="642527A2-38BF-CB65-ECC7-0FF5C70EEB86" name="TABLE_11_Lokacija_FK">

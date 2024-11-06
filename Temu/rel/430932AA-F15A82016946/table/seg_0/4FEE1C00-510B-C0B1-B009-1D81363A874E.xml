@@ -40,9 +40,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DB743461-B619-31AE-F6E2-C80266EB8B29" referredColumn="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
-</associations>
 </Column>
 <Column name="ocena" id="6666FD73-5959-B56C-4A25-BE3C2608C766">
 <createdBy>Ana Mandic</createdBy>
@@ -65,6 +62,20 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_id_Osobe" id="087218FF-E8E6-2053-E0F2-4B7F5FD15266">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:14:10 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB743461-B619-31AE-F6E2-C80266EB8B29" referredColumn="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -96,7 +107,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D385946E-435B-A9E4-9333-B918AAD9167A"/>
+<colUsage columnID="087218FF-E8E6-2053-E0F2-4B7F5FD15266"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

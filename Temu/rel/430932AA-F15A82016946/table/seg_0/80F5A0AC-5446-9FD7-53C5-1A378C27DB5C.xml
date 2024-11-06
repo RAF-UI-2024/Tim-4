@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80F5A0AC-5446-9FD7-53C5-1A378C27DB5C" name="Uloga_oosba">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:21:50 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Osobe" id="3374B2DB-7E29-D164-D66E-C4A1EB9C0469">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:23:56 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D59A9A4-D2F5-4237-E5EA-A3188586136F" referredColumn="8EA0EF9B-F705-02EF-E93D-40F11F2A1D85"/>
+</associations>
+</Column>
+<Column name="id_uloge" id="D25D570A-8581-2C7A-4304-5C58606E2330">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:23:56 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C07355DE-1185-96E0-D1B5-88E954217C38" referredColumn="DEAC32D3-D7E8-7210-403D-404EA5D7270D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89361E66-BF65-C61A-4F35-226BE3114C1D" name="Uloga_oosba_PK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:23:56 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D25D570A-8581-2C7A-4304-5C58606E2330"/>
+<colUsage columnID="3374B2DB-7E29-D164-D66E-C4A1EB9C0469"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6FCC98E-4096-1042-36B6-9A4FCF17DD8E" name="TABLE_37_Uloga_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:23:56 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D25D570A-8581-2C7A-4304-5C58606E2330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20E96A6A-F12B-B981-435A-2FE2E7626A07" name="TABLE_37_Osoba_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:23:56 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3374B2DB-7E29-D164-D66E-C4A1EB9C0469"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E1D1EB-5BC1-1B95-BE5B-4C4EE3C7C7FC" name="Bonus">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:27:40 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bonusa" id="908A7B3E-65E2-CB16-EF80-BEA4C10FC06A">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:29:45 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="procenat_na_platu" id="9173382C-EC99-7747-00AA-90A624901052">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:29:45 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16ECD7B5-A186-DCA2-3867-57C02C483437" name="Bonus_PK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:29:45 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="908A7B3E-65E2-CB16-EF80-BEA4C10FC06A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

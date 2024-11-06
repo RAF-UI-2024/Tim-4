@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBAF56F6-E02B-A481-EE28-2C7D555DABD3" name="Zaposleni">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:08:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Osobe" id="A491FE67-3EC0-E2CB-939B-1359DE9BBBF1">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:13:20 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2213EC24-E393-DF23-1895-CE0A55CCAE97" referredColumn="8EA0EF9B-F705-02EF-E93D-40F11F2A1D85"/>
+</associations>
+</Column>
+<Column name="mejl" id="D3BA753A-CDDE-2A86-23B4-5CE22CA321CE">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:12:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sifra" id="914A7044-B1E5-43F9-1EB0-C248195AF2D7">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:12:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radni_Staz" id="19D6A8FF-1C55-4781-24C5-E3BD53AB14AA">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:12:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_plate" id="38B461D4-C4B8-4669-34D7-57B5BF8967CC">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:37:59 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="846A252B-92C9-CDF4-1787-FC263B3455BB" referredColumn="50DBE39C-4FFB-222A-C3C6-DAE9E1540F48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D523FF8E-84F6-C529-E8C8-C7D416FF52D3" name="Zaposleni_PK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:12:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A491FE67-3EC0-E2CB-939B-1359DE9BBBF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494C2AC9-88DE-6E75-A3B1-45F3E9D39610" name="Zaposleni_Osoba_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:13:20 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A491FE67-3EC0-E2CB-939B-1359DE9BBBF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D140DE53-7602-A961-26C4-2609E2D18441" name="Zaposleni_Plata_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:37:59 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B461D4-C4B8-4669-34D7-57B5BF8967CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

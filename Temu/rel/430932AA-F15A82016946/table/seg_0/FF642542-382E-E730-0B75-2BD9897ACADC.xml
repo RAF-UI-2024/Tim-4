@@ -8,37 +8,18 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_korisnika" id="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 13:43:02 UTC</createdTime>
+<Column name="id_Osobe" id="2802504D-569F-2BCE-5F6E-36103FDA2AA1">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:14:10 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ime" id="1B7EBE45-8158-FF26-D6AD-56FDC970BA82">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 13:43:02 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="prezime" id="3BAF71CF-AFC3-923F-5CAA-6058E616F853">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 13:43:02 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF587630-CCC9-E1C9-26A4-DF38E03FDAB4" referredColumn="8EA0EF9B-F705-02EF-E93D-40F11F2A1D85"/>
+</associations>
 </Column>
 <Column name="mejl" id="FF342D86-695A-7D54-0E2D-5E682F064CD2">
 <createdBy>Ana Mandic</createdBy>
@@ -72,7 +53,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E9FD82DC-ED0A-91D1-9E84-8B74E27EDBFF"/>
+<colUsage columnID="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9C8BAF4-39DD-FEE3-5706-1017C8102635" name="Korisnik_Osoba_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-11-06 16:14:10 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
