@@ -42,16 +42,6 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_kurirske_sluzbe" id="1BDDF6F9-F86C-800D-3493-5964B9DF9D4E">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:42:04 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="id_lokacije" id="DEBF67E9-F0CD-B088-F6B9-949BDD871BEF">
 <createdBy>Ana Mandic</createdBy>
 <createdTime>2024-10-09 14:42:04 UTC</createdTime>

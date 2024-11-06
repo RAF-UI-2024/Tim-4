@@ -68,6 +68,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE"/>
+<colUsage columnID="C9D648B2-5B08-606A-9588-645947202593"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="475C2F63-2BD0-0825-AE72-5F954FAFB5BD" name="TABLE_37_Porudzbina_FK">

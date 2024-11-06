@@ -28,7 +28,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C61CB577-8F58-7BE3-C0DF-A75C7E13EDC5" referredColumn="712BB5DF-4842-F80C-A205-E217ED796031"/>
+<colAssociation fkAssociation="6C1339C3-80A1-1721-A3D4-11F44EA23B1F" referredColumn="C9D648B2-5B08-606A-9588-645947202593"/>
 </associations>
 </Column>
 <Column name="id_kurirske_sluzbee" id="45B73934-6F2A-A386-D285-350145577A76">
@@ -83,6 +83,19 @@
 <colAssociation fkAssociation="1A557B88-7DC2-B9F3-BACB-64F889B08FE2" referredColumn="5852D936-E301-FAE0-4A65-49E823CCBCD3"/>
 </associations>
 </Column>
+<Column name="id_slanja_porudzbine" id="32CF0508-9803-91FF-2E48-7F9CEDF90E13">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-02 16:26:10 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C1339C3-80A1-1721-A3D4-11F44EA23B1F" referredColumn="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="02DE44C2-88EB-882F-8E50-394238BF085D" name="Isporuka Porudzbine_PK">
@@ -116,16 +129,6 @@
 <colUsage columnID="45B73934-6F2A-A386-D285-350145577A76"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C15EB36D-E506-0516-9260-FEC37FE94E29" name="TABLE_39_Porudzbina_FK">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:15:22 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A368DD5A-A550-ADEA-744A-8FA45C04E3CF"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="4829F1C9-F7AF-1CFB-3C6B-F556C9366959" name="Isporuka Porudzbine_Lokacije korisnika_FK">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 15:16:13 UTC</createdTime>
@@ -135,6 +138,17 @@
 <indexColumnUsage>
 <colUsage columnID="F0057B27-D958-7D7D-270B-9F9CA6143FC6"/>
 <colUsage columnID="3D42A211-1D7B-B09A-8F9D-0521F10EE785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD48A7A-302E-88EB-D9B4-3F6781EBFB49" name="Isporuka Porudzbine_Slanje porudzbine_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-02 16:26:10 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32CF0508-9803-91FF-2E48-7F9CEDF90E13"/>
+<colUsage columnID="A368DD5A-A550-ADEA-744A-8FA45C04E3CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
