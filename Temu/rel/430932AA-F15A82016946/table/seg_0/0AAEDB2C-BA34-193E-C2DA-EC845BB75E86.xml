@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AAEDB2C-BA34-193E-C2DA-EC845BB75E86" name="Ban Firme">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:06:59 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_61</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipa_kazne" id="65236281-7565-C35D-A273-9910F034668C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:10:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6D517B3-180B-5137-8B81-184565627DE4" referredColumn="CFB3EF0A-50E5-2F03-CF52-4C223BE00E6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BB218EB-A517-73FF-1C93-020250E5A9F9" name="Ban Firme_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:10:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65236281-7565-C35D-A273-9910F034668C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03978969-3409-7ED7-824C-227B2A49B3A5" name="Ban Firme_Tip Kazne_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:10:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65236281-7565-C35D-A273-9910F034668C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

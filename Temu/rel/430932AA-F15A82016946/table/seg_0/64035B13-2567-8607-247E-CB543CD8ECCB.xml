@@ -1,37 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A41D5EF-7C26-AC9A-E279-6FD040ED8042" name="Distibutivni Centar">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64035B13-2567-8607-247E-CB543CD8ECCB" name="Gratis Popust">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:31 UTC</createdTime>
+<createdTime>2024-11-26 15:24:21 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<ordsAlias>table_38</ordsAlias>
+<ordsAlias>table_40</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_distributivno_centar" id="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6">
+<Column name="id_tipa_popusta" id="8D0430E9-AFF9-A6D2-3E42-8D9DF2DF07A3">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:10:11 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ime" id="513ED61B-0F9B-D7C9-2F75-14E0FAD152AC">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:10:11 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_lokacije" id="842A0678-2272-E9A3-08CF-C5C16F714F3F">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:10:11 UTC</createdTime>
+<createdTime>2024-11-26 15:26:23 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,30 +18,50 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1B80E188-019A-A07F-8945-3336165B9E91" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+<colAssociation fkAssociation="831BF3C4-65D0-B0F7-9F76-D4A7E78BD5F9" referredColumn="8A2B9F9C-D8D4-E843-7DFB-1BA8B04DBAFA"/>
 </associations>
+</Column>
+<Column name="koliko_kupis" id="7F92CA41-0D36-18A4-4CB3-A53EE8285629">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:26:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koliko_dobijes" id="C9538309-98DE-4465-1457-2831EB8E21D9">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:26:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E62E1E7A-AC6F-5F23-E43A-329C5A86D263" name="Distibutivni Centar_PK">
+<ind_PK_UK id="BDD134CD-8154-97AE-BF57-8BD387AB6AC1" name="Grati Popust_PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:10:54 UTC</createdTime>
+<createdTime>2024-11-26 15:26:23 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6"/>
+<colUsage columnID="8D0430E9-AFF9-A6D2-3E42-8D9DF2DF07A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BFCEE446-65EA-FB22-74B4-637F328DB230" name="Distibutivni Centar_Lokacija_FK">
+<ind_PK_UK id="1E02563A-2BC8-A0B2-29A5-E2E8DF22142D" name="TABLE_40_Tip popusta_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-11-26 15:56:23 UTC</createdTime>
+<createdTime>2024-11-26 15:26:23 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="842A0678-2272-E9A3-08CF-C5C16F714F3F"/>
+<colUsage columnID="8D0430E9-AFF9-A6D2-3E42-8D9DF2DF07A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

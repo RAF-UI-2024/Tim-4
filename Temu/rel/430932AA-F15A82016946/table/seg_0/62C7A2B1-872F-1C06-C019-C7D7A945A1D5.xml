@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFAB5703-6C40-0284-E3B9-1FCEF7357007" name="Slanje porudzbine">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62C7A2B1-872F-1C06-C019-C7D7A945A1D5" name="Reklama">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:05:47 UTC</createdTime>
+<createdTime>2024-11-26 15:33:21 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<ordsAlias>table_37</ordsAlias>
+<ordsAlias>table_42</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_slanja_porudzbine" id="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE">
+<Column name="id_reklame" id="26A9A73C-6F37-C04D-C2A6-929798139ECC">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<createdTime>2024-11-26 15:35:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_porudzbine" id="C9D648B2-5B08-606A-9588-645947202593">
+<Column name="id_proivoda" id="AB511F8A-678A-C91A-2821-7C1CD20FBE89">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<createdTime>2024-11-26 15:35:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,12 +28,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8D9FCF57-9DC9-4BC9-A245-B3328D4E2EF4" referredColumn="712BB5DF-4842-F80C-A205-E217ED796031"/>
+<colAssociation fkAssociation="EFB10532-BCB6-9F18-624B-C18C15BF547E" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
 </associations>
 </Column>
-<Column name="id_kurirske_sluzbe" id="524A466B-7611-AA2D-EEEB-32A740B1D5EA">
+<Column name="id_cene" id="A8393808-DDAF-4E3D-4BDB-2935B0E33B0D">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<createdTime>2024-11-26 15:35:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,41 +41,40 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="72E55077-B84D-FF98-9F4C-1A76574E1ED7" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
+<colAssociation fkAssociation="6A81C519-C048-7DBE-53AD-7292131C90D3" referredColumn="0D017F33-5ED7-C04A-FA6C-E32C0DBEC784"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C6FC414F-794C-6A73-F13C-14584B438FDF" name="Isporuka_PK">
+<ind_PK_UK id="5025D48A-F772-C5F7-C735-310AF8A0E23F" name="Reklama_PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<createdTime>2024-11-26 15:35:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE"/>
-<colUsage columnID="C9D648B2-5B08-606A-9588-645947202593"/>
+<colUsage columnID="26A9A73C-6F37-C04D-C2A6-929798139ECC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="475C2F63-2BD0-0825-AE72-5F954FAFB5BD" name="TABLE_37_Porudzbina_FK">
+<ind_PK_UK id="00BA9717-EFC1-3590-1197-B064BD139EB6" name="TABLE_42_Proizvod_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<createdTime>2024-11-26 15:35:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C9D648B2-5B08-606A-9588-645947202593"/>
+<colUsage columnID="AB511F8A-678A-C91A-2821-7C1CD20FBE89"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B44846BE-EDB9-C744-CFB7-3EE1DA79CD64" name="TABLE_37_Kurirska sluzba_FK">
+<ind_PK_UK id="A496767B-1D4F-BF73-A2FE-FE1402EEACCF" name="TABLE_42_Cena_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:08:08 UTC</createdTime>
+<createdTime>2024-11-26 15:35:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="524A466B-7611-AA2D-EEEB-32A740B1D5EA"/>
+<colUsage columnID="A8393808-DDAF-4E3D-4BDB-2935B0E33B0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

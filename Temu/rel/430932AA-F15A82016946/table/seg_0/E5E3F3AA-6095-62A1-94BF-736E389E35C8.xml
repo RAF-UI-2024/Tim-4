@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5E3F3AA-6095-62A1-94BF-736E389E35C8" name="Prevoz iz Distributivnog centra">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:07:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prevoza" id="74A731B1-D710-8A23-1287-6871CF662371">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:20:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_distributivnog_centra" id="793B42B5-81DE-8CC8-8700-E6D266931519">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:08:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8C2AFAB-229E-DA7C-364A-6088EF4CE286" referredColumn="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6"/>
+</associations>
+</Column>
+<Column name="id_kurirske_skuzbe" id="ED9C2602-9623-094F-2AB5-A447BCFE495F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:08:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F976B610-3183-31DB-CB0A-BB7C2E50CFC5" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
+</associations>
+</Column>
+<Column name="id_prevoznog_sredstva" id="5C9F2362-EDD1-62AC-38F6-6883C389129F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:22:41 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D55A40B-A219-AC26-A603-10FA21DBC8E4" referredColumn="4E0057F8-61D4-2BEF-4985-7FC9E82A876A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64F474D5-CE3A-4C64-1BAC-BE35A9963D92" name="Prevoz_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:08:51 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74A731B1-D710-8A23-1287-6871CF662371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="057D31B6-7001-441E-CE2B-8B83CB547215" name="Prevoz_Distibutivni Centar_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:09:44 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="793B42B5-81DE-8CC8-8700-E6D266931519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E07E7215-D7F4-8ACE-9EBF-77C5A204DA06" name="Prevoz_Kurirska sluzba_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:09:44 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9C2602-9623-094F-2AB5-A447BCFE495F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D9E4DC7-B753-96FA-8637-ABDD5F83AF1E" name="Prevoz_Prevoz_FKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:22:41 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C9F2362-EDD1-62AC-38F6-6883C389129F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

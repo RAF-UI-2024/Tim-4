@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="08809B13-CDF1-D64A-EDDD-F2FF58C0F960" containerWithKeyObject="B9495707-BE5D-81D0-D8EE-9EC1252778FC" localFKIndex="CBE18CAC-54AD-795B-5301-B4FBF266EFA9" name="TABLE_55_Distibutivni Centar_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:49:32 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Distibutivni Centar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A41D5EF-7C26-AC9A-E279-6FD040ED8042</referredTableID>
+<keyObject>E62E1E7A-AC6F-5F23-E43A-329C5A86D263</keyObject>
+<referredKeyID>E62E1E7A-AC6F-5F23-E43A-329C5A86D263</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_distributivno_centar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

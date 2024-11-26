@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D754CF2-A962-4A9E-DEF1-8017121298C8" name="Suspenzija Firme">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:08:34 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipa_kazne" id="92516B58-BE15-0ED5-4B17-F70F42CD844C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:11:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6696D316-7D29-C770-6ACC-37272C07EC90" referredColumn="CFB3EF0A-50E5-2F03-CF52-4C223BE00E6C"/>
+</associations>
+</Column>
+<Column name="datum_do" id="18016905-BF1D-7E05-DA81-40B0C510D68F">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:11:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="796B3B7D-9B2B-B84B-F82C-64C22A2DB44B" name="Suspenzija Firme_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:11:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92516B58-BE15-0ED5-4B17-F70F42CD844C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79489CA7-10D7-1D7E-6164-2665A3B4482D" name="Suspenzija Firme_Tip Kazne_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:11:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92516B58-BE15-0ED5-4B17-F70F42CD844C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

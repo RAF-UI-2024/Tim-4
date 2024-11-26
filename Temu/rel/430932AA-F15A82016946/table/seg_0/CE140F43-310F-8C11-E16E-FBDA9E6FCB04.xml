@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE140F43-310F-8C11-E16E-FBDA9E6FCB04" name="Zaposleni u Inspekciji">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:51:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inspelcije" id="AAC6BF8D-F5C2-F602-279F-0CC4DBEF9807">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:52:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9C70CA4-8723-421F-881D-E2E8607AA80E" referredColumn="75279C66-D58F-6009-A945-CF2669D892F8"/>
+</associations>
+</Column>
+<Column name="id_zaposlenog" id="73A4B968-164E-F328-05D2-2406B0A15355">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:52:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="056C8916-141A-85AE-D7CA-84FC2C9C2F86" referredColumn="A491FE67-3EC0-E2CB-939B-1359DE9BBBF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9CDA3D9-D1BE-50FE-C449-396D6403563B" name="Zaposleni u Inspekciji_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:52:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC6BF8D-F5C2-F602-279F-0CC4DBEF9807"/>
+<colUsage columnID="73A4B968-164E-F328-05D2-2406B0A15355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26554DB2-0D83-1261-62FA-A806297923D9" name="TABLE_56_Inspekcija_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:52:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC6BF8D-F5C2-F602-279F-0CC4DBEF9807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20E2F1F3-0432-ACF9-6B14-220527A8B901" name="TABLE_56_Zaposleni_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:52:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73A4B968-164E-F328-05D2-2406B0A15355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

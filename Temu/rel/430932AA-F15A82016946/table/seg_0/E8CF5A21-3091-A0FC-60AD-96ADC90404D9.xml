@@ -78,6 +78,19 @@
 <colAssociation fkAssociation="6B874447-B199-6F41-DFF1-584AA6D98AAB" referredColumn="0D017F33-5ED7-C04A-FA6C-E32C0DBEC784"/>
 </associations>
 </Column>
+<Column name="id_firme" id="1DE78A3A-AD39-E36D-BBD3-54F55116551B">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:58:53 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B32A57E9-FC17-7BCF-9777-8FFD9D270948" referredColumn="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6B5A74BF-F53D-496B-C24B-03368BDFBC35" name="Proizvod_PK">
@@ -109,6 +122,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="526B907F-6F8F-7B85-B49E-95D9AA3B0D1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D06C751-FBB3-CB00-0B69-36DE1B5DCEED" name="Proizvod_Partnerka Firma_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:58:53 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DE78A3A-AD39-E36D-BBD3-54F55116551B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -62,9 +62,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="846A252B-92C9-CDF4-1787-FC263B3455BB" referredColumn="50DBE39C-4FFB-222A-C3C6-DAE9E1540F48"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -87,16 +84,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A491FE67-3EC0-E2CB-939B-1359DE9BBBF1"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D140DE53-7602-A961-26C4-2609E2D18441" name="Zaposleni_Plata_FK">
-<createdBy>munja</createdBy>
-<createdTime>2024-11-06 16:37:59 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="38B461D4-C4B8-4669-34D7-57B5BF8967CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

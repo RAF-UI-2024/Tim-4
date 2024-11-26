@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E1D1EB-5BC1-1B95-BE5B-4C4EE3C7C7FC" name="Bonus">
-<createdBy>munja</createdBy>
-<createdTime>2024-11-06 16:27:40 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F3B525A-197D-BE78-3A6A-FF298DF7B7EB" name="Partnerska Firma">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:56:46 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<ordsAlias>table_41</ordsAlias>
+<ordsAlias>table_57</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_bonusa" id="908A7B3E-65E2-CB16-EF80-BEA4C10FC06A">
-<createdBy>munja</createdBy>
-<createdTime>2024-11-06 16:29:45 UTC</createdTime>
+<Column name="id_firme" id="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:57:36 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,27 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="procenat_na_platu" id="9173382C-EC99-7747-00AA-90A624901052">
-<createdBy>munja</createdBy>
-<createdTime>2024-11-06 16:29:45 UTC</createdTime>
+<Column name="naziv" id="01F76708-DB99-4666-D9EF-10269ECB8869">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:57:36 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="16ECD7B5-A186-DCA2-3867-57C02C483437" name="Bonus_PK">
-<createdBy>munja</createdBy>
-<createdTime>2024-11-06 16:29:45 UTC</createdTime>
+<ind_PK_UK id="2655A6C7-5814-6FEF-DE5E-80FF2F560E39" name="Partnerka Firma_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:57:36 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="908A7B3E-65E2-CB16-EF80-BEA4C10FC06A"/>
+<colUsage columnID="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

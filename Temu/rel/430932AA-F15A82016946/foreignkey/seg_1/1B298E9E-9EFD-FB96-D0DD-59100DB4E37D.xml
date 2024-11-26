@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="1B298E9E-9EFD-FB96-D0DD-59100DB4E37D" containerWithKeyObject="109D8322-88CB-D310-94E4-93727451F714" localFKIndex="B4B582C5-7AAA-C550-9C1F-03667F714E78" name="TABLE_59_Rezultati Inspekcije_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 17:03:38 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Rezultati Inspekcije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>41FADFE5-3192-48EA-5539-7C21F422DA66</referredTableID>
+<keyObject>B543260B-C376-6271-976F-617C9AD9AFE2</keyObject>
+<referredKeyID>B543260B-C376-6271-976F-617C9AD9AFE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rezultata</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

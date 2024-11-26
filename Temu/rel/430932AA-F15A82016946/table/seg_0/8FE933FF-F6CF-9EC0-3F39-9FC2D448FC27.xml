@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FE933FF-F6CF-9EC0-3F39-9FC2D448FC27" name="Prevoz Do Korisnika">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:29:55 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prevoza_do_korisnika" id="E4778C9C-7E77-E76E-720A-7BB226B3441C">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kurirske_sluzbe" id="A4539942-465D-65E3-7A83-219CD5FCA467">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7242F5FC-1D56-23AC-F390-F27933442B23" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
+</associations>
+</Column>
+<Column name="id_prevoznog_sredstva" id="8ECF968D-74ED-0F83-32FF-43D26BA159CF">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C0C9AD2-C3D9-E640-995A-F905706C3B0A" referredColumn="4E0057F8-61D4-2BEF-4985-7FC9E82A876A"/>
+</associations>
+</Column>
+<Column name="id_poslednji_prevoz" id="37ABFD0D-E98B-DB20-6EBB-E459C547E039">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD82F73A-80D2-D284-FFB4-2D5CBDB6269C" referredColumn="D5E35ED2-C679-FA02-824B-C542A86EFF38"/>
+</associations>
+</Column>
+<Column name="id_lokacije_korisnika" id="463A461B-17D9-F260-324A-104EF8B6D8C0">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="520151A7-FE01-82AA-4298-04D56177B618" referredColumn="4B68985C-EF77-2E6D-25B8-226A9254822D"/>
+</associations>
+</Column>
+<Column name="id_korisnika" id="6B62446C-DDCB-0C6B-2568-518B942C0E67">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="520151A7-FE01-82AA-4298-04D56177B618" referredColumn="0D8F8F75-42D0-77FA-67CC-6C940B83A13E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EAEE694-7239-12A6-396A-E52AB96559FD" name="Prevoz Do Korisnika_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4778C9C-7E77-E76E-720A-7BB226B3441C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="393204C8-9597-77F0-A87B-DF06C680AA57" name="TABLE_53_Kurirska sluzba_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4539942-465D-65E3-7A83-219CD5FCA467"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A67AC14-4713-E934-23CC-124DC5361DC9" name="TABLE_53_Trenutni prevoz_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37ABFD0D-E98B-DB20-6EBB-E459C547E039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CC7592D-427C-FBC0-F36D-09BA5D11D659" name="TABLE_53_Prevozno Sredstvo_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ECF968D-74ED-0F83-32FF-43D26BA159CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="725333D4-1558-36A4-0555-E36832DCE5F7" name="TABLE_53_Lokacije korisnika_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:33:36 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463A461B-17D9-F260-324A-104EF8B6D8C0"/>
+<colUsage columnID="6B62446C-DDCB-0C6B-2568-518B942C0E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

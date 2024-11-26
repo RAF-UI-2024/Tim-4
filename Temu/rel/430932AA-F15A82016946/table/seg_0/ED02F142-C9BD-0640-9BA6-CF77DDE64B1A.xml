@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_korisnika" id="5852D936-E301-FAE0-4A65-49E823CCBCD3">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-15 15:32:03 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="id_lokacije" id="4B68985C-EF77-2E6D-25B8-226A9254822D">
 <createdBy>Ana Mandic</createdBy>
 <createdTime>2024-10-15 15:32:03 UTC</createdTime>
@@ -55,8 +45,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5852D936-E301-FAE0-4A65-49E823CCBCD3"/>
 <colUsage columnID="4B68985C-EF77-2E6D-25B8-226A9254822D"/>
+<colUsage columnID="0D8F8F75-42D0-77FA-67CC-6C940B83A13E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="62995842-D788-D83C-52B7-103276D31456" name="TABLE_11_Korisnik_FK">

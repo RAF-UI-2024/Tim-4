@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91A2FC79-3D5B-3CC8-C3CB-3424554B69E1" name="Procentualni poput">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:21:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipa_poputa" id="D8ED0C12-4217-D433-7901-64BCB01FF4E2">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:24:17 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E064304-0EE4-CFB4-AE0D-095EA2C30C34" referredColumn="8A2B9F9C-D8D4-E843-7DFB-1BA8B04DBAFA"/>
+</associations>
+</Column>
+<Column name="procenat" id="F6FCA35B-AA4A-E114-E47D-B8963A3476C3">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:24:17 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="812CFBCF-A747-6215-175D-1EA5B6B91098" name="Procentualni poput_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:24:17 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8ED0C12-4217-D433-7901-64BCB01FF4E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8C7B004-4A6E-2C69-E52E-364E5BC6D78C" name="TABLE_39_Tip popusta_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:24:17 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8ED0C12-4217-D433-7901-64BCB01FF4E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

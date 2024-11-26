@@ -22,7 +22,6 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 13:27:09 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -34,7 +33,6 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 13:27:09 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -42,7 +40,7 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_grada" id="8BE147D7-02A2-809D-6BA3-FF696C98713E">
+<Column name="id_lokacije" id="8BE147D7-02A2-809D-6BA3-FF696C98713E">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 13:37:43 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
@@ -52,7 +50,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="89626230-A863-C566-F937-1EAAF294B467" referredColumn="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
+<colAssociation fkAssociation="5339DC8F-CA27-5110-733F-5E9125665236" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
 </associations>
 </Column>
 </columns>
@@ -68,9 +66,9 @@
 <colUsage columnID="B7636209-EBE1-A715-7411-698B891BAFA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="48F8496B-1B07-7FA6-CCB4-BDFEA24C1C0D" name="Skladište_Grad_FK">
+<ind_PK_UK id="92F1CA3C-C775-A745-EBCC-3C255549ADB2" name="Skladište_Lokacija_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:37:43 UTC</createdTime>
+<createdTime>2024-11-26 15:53:51 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

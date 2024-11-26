@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D32809FD-79B8-800A-1B45-6D1BA6D8783E" name="Tag Proivoda">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:10:07 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_taga" id="F47B5718-5948-4948-F2AB-08E9DDEEA4A7">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:11:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14EDA02F-3BE6-2B9B-77BA-7AD37CDB47D1" referredColumn="7BB3DC12-3549-CC11-D547-C17A795102D4"/>
+</associations>
+</Column>
+<Column name="id_proivoda" id="FFE6DC1B-EC4F-9AD3-B35B-B4691707BD48">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:11:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4DBCAE1-E8AA-E50D-7E3A-B3A3BFEC3CA4" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA16AD38-177C-B6F4-DA6C-3B4473047688" name="Tag Proivoda_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:11:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F47B5718-5948-4948-F2AB-08E9DDEEA4A7"/>
+<colUsage columnID="FFE6DC1B-EC4F-9AD3-B35B-B4691707BD48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="233C56C6-F4F9-53F3-8E88-62B5FB21BE1B" name="TABLE_36_Proizvod_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:11:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFE6DC1B-EC4F-9AD3-B35B-B4691707BD48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABF7127D-4973-422B-7333-B2F3B7FB046B" name="TABLE_36_Tag_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 15:11:08 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F47B5718-5948-4948-F2AB-08E9DDEEA4A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

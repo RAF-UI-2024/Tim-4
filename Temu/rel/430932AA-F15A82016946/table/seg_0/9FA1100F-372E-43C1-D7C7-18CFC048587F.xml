@@ -79,9 +79,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1A557B88-7DC2-B9F3-BACB-64F889B08FE2" referredColumn="5852D936-E301-FAE0-4A65-49E823CCBCD3"/>
-</associations>
 </Column>
 <Column name="id_slanja_porudzbine" id="32CF0508-9803-91FF-2E48-7F9CEDF90E13">
 <createdBy>Administrator</createdBy>
@@ -94,6 +91,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6C1339C3-80A1-1721-A3D4-11F44EA23B1F" referredColumn="CE1CF9AE-58D7-D35D-4B34-5C0633614DDE"/>
+</associations>
+</Column>
+<Column name="Lokacije korisnika_Korisnik_id_Osobe" id="F96611ED-B36B-8B40-9100-B076FAB3226A">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:06:26 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A557B88-7DC2-B9F3-BACB-64F889B08FE2" referredColumn="0D8F8F75-42D0-77FA-67CC-6C940B83A13E"/>
 </associations>
 </Column>
 </columns>
@@ -136,8 +147,8 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0057B27-D958-7D7D-270B-9F9CA6143FC6"/>
 <colUsage columnID="3D42A211-1D7B-B09A-8F9D-0521F10EE785"/>
+<colUsage columnID="F96611ED-B36B-8B40-9100-B076FAB3226A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9DD48A7A-302E-88EB-D9B4-3F6781EBFB49" name="Isporuka Porudzbine_Slanje porudzbine_FK">

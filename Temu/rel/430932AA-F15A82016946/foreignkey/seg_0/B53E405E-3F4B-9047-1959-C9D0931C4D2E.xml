@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B53E405E-3F4B-9047-1959-C9D0931C4D2E" containerWithKeyObject="B334D0D2-2B60-A68F-3BBD-FC6C9B004641" localFKIndex="324ACEA0-467A-CC2A-43DD-EED3F9EEE3F9" name="TABLE_52_Prevozno Sredstvo_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-11-26 16:27:00 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Prevozno Sredstvo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C4BDBF1-2DB8-5EE1-E8C2-DE88575B7A41</referredTableID>
+<keyObject>92DFF9D8-8D2A-9F20-6834-FE0A4B105417</keyObject>
+<referredKeyID>92DFF9D8-8D2A-9F20-6834-FE0A4B105417</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_prevoznog_sredstva</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
