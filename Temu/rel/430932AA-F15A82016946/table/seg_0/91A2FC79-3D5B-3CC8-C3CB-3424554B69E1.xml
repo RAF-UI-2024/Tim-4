@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91A2FC79-3D5B-3CC8-C3CB-3424554B69E1" name="Procentualni poput">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91A2FC79-3D5B-3CC8-C3CB-3424554B69E1" name="Procentualni popust">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-11-26 15:21:28 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>

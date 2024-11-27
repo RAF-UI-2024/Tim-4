@@ -8,8 +8,8 @@
 <referredTableID>B334D0D2-2B60-A68F-3BBD-FC6C9B004641</referredTableID>
 <keyObject>F9A53235-87DE-3462-0CCD-DC4396072151</keyObject>
 <referredKeyID>F9A53235-87DE-3462-0CCD-DC4396072151</referredKeyID>
-<mandatory>true</mandatory>
-<refColNames>id_trnutnog_prevoza</refColNames>
+<mandatory>false</mandatory>
+<refColNames>id_trenutnog_prevoza</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

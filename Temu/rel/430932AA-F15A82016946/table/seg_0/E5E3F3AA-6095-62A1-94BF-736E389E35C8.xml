@@ -59,7 +59,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="64F474D5-CE3A-4C64-1BAC-BE35A9963D92" name="Prevoz_PK">
+<ind_PK_UK id="64F474D5-CE3A-4C64-1BAC-BE35A9963D92" name="Prevoz_PKv1">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-11-26 16:08:51 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
