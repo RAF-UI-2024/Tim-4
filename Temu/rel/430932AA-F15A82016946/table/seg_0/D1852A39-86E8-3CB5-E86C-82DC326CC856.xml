@@ -8,6 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promocije" id="C1AB9D65-AAC5-6C0C-A02B-467A99E90759">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:11:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63BB4DA8-8521-9062-4708-C99C39C2B3D6" referredColumn="F4D9E368-5D3D-1007-B213-0FF686073C90"/>
+</associations>
+</Column>
 <Column name="id_popusta" id="C57A81E9-107F-0F8E-C159-E5BDCA66FBEB">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 14:36:28 UTC</createdTime>
@@ -52,6 +65,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C57A81E9-107F-0F8E-C159-E5BDCA66FBEB"/>
+<colUsage columnID="C1AB9D65-AAC5-6C0C-A02B-467A99E90759"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A0F9E1BC-0A4B-0360-EE32-546190A18231" name="Popust_Tip popusta_FK">
@@ -62,6 +76,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="30EA4155-2F77-BB76-2043-A964D7DC1299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB01EABE-9A18-A1E8-9A33-83060E660242" name="Popust_Promocija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:11:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1AB9D65-AAC5-6C0C-A02B-467A99E90759"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

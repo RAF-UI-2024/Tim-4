@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98F5B77E-7856-E694-2840-8838749A8BD7" name="Promocija">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:09:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promocije" id="F4D9E368-5D3D-1007-B213-0FF686073C90">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:10:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DF4201E-790C-95F6-7A30-7F91347E6726" name="Promocija_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:10:09 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D9E368-5D3D-1007-B213-0FF686073C90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

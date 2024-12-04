@@ -8,6 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promocije" id="A5569889-04CC-E3F3-551C-221D417EB043">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:16:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62C35462-A4B3-54CA-AED1-939B6CFB7BE9" referredColumn="F4D9E368-5D3D-1007-B213-0FF686073C90"/>
+</associations>
+</Column>
 <Column name="id_reklame" id="26A9A73C-6F37-C04D-C2A6-929798139ECC">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-11-26 15:35:40 UTC</createdTime>
@@ -55,6 +68,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="26A9A73C-6F37-C04D-C2A6-929798139ECC"/>
+<colUsage columnID="A5569889-04CC-E3F3-551C-221D417EB043"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="00BA9717-EFC1-3590-1197-B064BD139EB6" name="TABLE_42_Proizvod_FK">
@@ -75,6 +89,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A8393808-DDAF-4E3D-4BDB-2935B0E33B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CFF92C3-19B3-FF88-4B75-AA2C8F574CD6" name="Reklama_Promocija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:16:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5569889-04CC-E3F3-551C-221D417EB043"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

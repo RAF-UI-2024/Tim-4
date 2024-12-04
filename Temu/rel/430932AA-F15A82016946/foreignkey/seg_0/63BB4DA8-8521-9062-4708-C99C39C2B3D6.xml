@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63BB4DA8-8521-9062-4708-C99C39C2B3D6" containerWithKeyObject="D1852A39-86E8-3CB5-E86C-82DC326CC856" localFKIndex="AB01EABE-9A18-A1E8-9A33-83060E660242" name="Popust_Promocija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:11:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Promocija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98F5B77E-7856-E694-2840-8838749A8BD7</referredTableID>
+<keyObject>2DF4201E-790C-95F6-7A30-7F91347E6726</keyObject>
+<referredKeyID>2DF4201E-790C-95F6-7A30-7F91347E6726</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_promocije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

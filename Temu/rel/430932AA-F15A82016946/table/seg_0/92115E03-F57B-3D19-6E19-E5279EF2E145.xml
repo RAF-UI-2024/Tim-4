@@ -41,7 +41,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name=" id_popusta" id="B6502F05-01CE-4B87-5707-0D86E3F141C5">
+<Column name="id_promocije" id="62FA812A-FFCE-77B6-7F21-A68D2A0790FD">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:11:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="344CAAA3-D2A8-812E-BB93-1D4396B6E2D1" referredColumn="C1AB9D65-AAC5-6C0C-A02B-467A99E90759"/>
+</associations>
+</Column>
+<Column name="id_popusta" id="B6502F05-01CE-4B87-5707-0D86E3F141C5">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 14:41:09 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
@@ -86,6 +101,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B6502F05-01CE-4B87-5707-0D86E3F141C5"/>
+<colUsage columnID="62FA812A-FFCE-77B6-7F21-A68D2A0790FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -21,7 +21,7 @@
 <colAssociation fkAssociation="20896A96-56A6-03D4-3190-FF16BE331FF2" referredColumn="CFB3EF0A-50E5-2F03-CF52-4C223BE00E6C"/>
 </associations>
 </Column>
-<Column name="vrednost" id="3EE216FF-7A1F-C37F-02B8-03C7174DC69F">
+<Column name="id_nivoa" id="3EE216FF-7A1F-C37F-02B8-03C7174DC69F">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-11-26 17:09:40 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
@@ -30,6 +30,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B88AB1AA-C13D-A919-A5BB-7B0DC77DA525" referredColumn="009D6A8B-6EC1-6EB0-80E8-6BBAF40C4C27"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -52,6 +55,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FD0A7E01-A808-F89B-F7FE-D70B86D784F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4109794C-29A5-BBB9-1619-E37162A96986" name="Novcana Kazna za Firmu_Tip novcane kazne_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 15:56:50 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EE216FF-7A1F-C37F-02B8-03C7174DC69F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

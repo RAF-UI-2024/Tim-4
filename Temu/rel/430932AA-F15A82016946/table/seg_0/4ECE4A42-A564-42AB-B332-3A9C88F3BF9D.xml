@@ -62,6 +62,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_pola" id="FFA68B9C-9BFC-0659-9E6D-42E9F4139DFC">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 17:06:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07AE4472-32EA-63BF-BCFD-E375A6D2B897" referredColumn="0E7862CA-4A04-7492-C72F-ED2C6D1C3560"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="99B65F70-8249-5E0F-B395-773C62682C12" name="Osoba_PK">
@@ -73,6 +86,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8EA0EF9B-F705-02EF-E93D-40F11F2A1D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1F6AF27-6EDD-4D20-F1B6-531F8201A070" name="Osoba_Pol_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 17:06:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA68B9C-9BFC-0659-9E6D-42E9F4139DFC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

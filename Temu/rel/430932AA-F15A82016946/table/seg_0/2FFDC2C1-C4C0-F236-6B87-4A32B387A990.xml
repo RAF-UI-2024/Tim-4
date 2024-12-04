@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FFDC2C1-C4C0-F236-6B87-4A32B387A990" name="Carina">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:55:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_61</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carine" id="1D987142-C7B8-D78B-1DB5-FCFCE5EA35A2">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:56:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_lokacije" id="6E4D879B-B0D0-B549-CAC5-16AB32BE439C">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:56:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7241E82C-2618-B737-A04E-37592231E5CE" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CC49F64-77CE-B19B-6C68-3F4ADA4CAE57" name="Carina_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:56:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D987142-C7B8-D78B-1DB5-FCFCE5EA35A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D04A680E-4A92-37C1-DC13-5EA3817AF22A" name="Carina_Lokacija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:57:03 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4D879B-B0D0-B549-CAC5-16AB32BE439C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

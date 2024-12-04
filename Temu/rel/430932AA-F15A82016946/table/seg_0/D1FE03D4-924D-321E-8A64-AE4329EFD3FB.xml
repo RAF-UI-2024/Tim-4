@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1FE03D4-924D-321E-8A64-AE4329EFD3FB" name="Nivo kazne za firmu">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 15:59:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nivoa" id="1A81BBC5-8189-9AC4-C385-C942ED10FC2F">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:01:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FA53A5D-D081-5FEC-043E-7F5CAA96FF0B" referredColumn="009D6A8B-6EC1-6EB0-80E8-6BBAF40C4C27"/>
+</associations>
+</Column>
+<Column name="id_firme" id="A9BCAAC5-B4ED-0F03-DB03-4437DAD8D6F7">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:01:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4ECCE22-3892-2EE8-5BCE-CED0172E7B08" referredColumn="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FA4B5C2-2519-006D-10EB-ADBAB7A4771E" name="Nivo kazne za firmu_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:01:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A81BBC5-8189-9AC4-C385-C942ED10FC2F"/>
+<colUsage columnID="A9BCAAC5-B4ED-0F03-DB03-4437DAD8D6F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="609E5779-0619-5FF4-8C27-998A4EDCADBE" name="TABLE_54_Tip novcane kazne_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:01:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A81BBC5-8189-9AC4-C385-C942ED10FC2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="517FBB60-A4FA-06E6-7788-641B528BF927" name="TABLE_54_Partnerska Firma_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:01:23 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9BCAAC5-B4ED-0F03-DB03-4437DAD8D6F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

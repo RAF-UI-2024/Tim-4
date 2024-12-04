@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B334D0D2-2B60-A68F-3BBD-FC6C9B004641" name="Trenutni prevoz">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B334D0D2-2B60-A68F-3BBD-FC6C9B004641" name="Prevoz">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-11-26 16:24:50 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
@@ -42,6 +42,32 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B53E405E-3F4B-9047-1959-C9D0931C4D2E" referredColumn="4E0057F8-61D4-2BEF-4985-7FC9E82A876A"/>
+</associations>
+</Column>
+<Column name="id_odlazne_lokacije" id="E72E4EC4-F62E-08BA-F877-DDB2E44664D2">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:34:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E55DDBC8-1AEA-80F5-4204-239B032FEB3E" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+<Column name="id_dolazne_lokacije" id="BB93FBE3-0FC0-DD9E-1AFA-E4425B4D5F4A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:34:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02B178F2-054E-4B49-84F8-7E7B49814D99" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
 </associations>
 </Column>
 <Column name="id_sledeceg_prevoza" id="AB23AF65-D68D-21A1-06E2-A2537B6CEE10">
@@ -99,6 +125,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AB23AF65-D68D-21A1-06E2-A2537B6CEE10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="646AB6C4-FA62-C818-6EE9-9708507FB5AE" name="Trenutni prevoz_Lokacija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:34:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72E4EC4-F62E-08BA-F877-DDB2E44664D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E400755C-E901-3DCD-5675-112A68461CA4" name="Trenutni prevoz_Lokacija_FKv1">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:34:02 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB93FBE3-0FC0-DD9E-1AFA-E4425B4D5F4A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

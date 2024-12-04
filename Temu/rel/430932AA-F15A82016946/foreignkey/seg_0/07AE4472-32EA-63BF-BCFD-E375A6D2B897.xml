@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07AE4472-32EA-63BF-BCFD-E375A6D2B897" containerWithKeyObject="4ECE4A42-A564-42AB-B332-3A9C88F3BF9D" localFKIndex="F1F6AF27-6EDD-4D20-F1B6-531F8201A070" name="Osoba_Pol_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 17:06:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Pol</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5EEF67B8-4423-30CC-6343-65BE76553A1F</referredTableID>
+<keyObject>8BDB364C-8822-4D86-3086-E07F6B311516</keyObject>
+<referredKeyID>8BDB364C-8822-4D86-3086-E07F6B311516</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pola</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

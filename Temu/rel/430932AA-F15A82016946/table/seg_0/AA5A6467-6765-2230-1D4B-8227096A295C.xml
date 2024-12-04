@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA5A6467-6765-2230-1D4B-8227096A295C" name="Zaposleni_u_transportu">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:48:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_60</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zaposlenog" id="064E1C0E-84A7-0D3B-2C1C-11C3157F398A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:50:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B7EAC2D-6909-851F-7AFD-BE53D6E24E3A" referredColumn="A491FE67-3EC0-E2CB-939B-1359DE9BBBF1"/>
+</associations>
+</Column>
+<Column name="id_transporta" id="463F7763-F594-2151-05CD-A50C0A5ED61C">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:50:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9501F3C5-EB8D-BDA2-9EBC-D281F239635A" referredColumn="18F4490E-4590-4651-E4F0-CA8FB2A601BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEB330EF-CC61-2B1F-FC80-F61F11BDF691" name="Zaposleni_u_transportu_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:50:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="064E1C0E-84A7-0D3B-2C1C-11C3157F398A"/>
+<colUsage columnID="463F7763-F594-2151-05CD-A50C0A5ED61C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="386000BB-E5B4-2EB4-EAA6-A830E8C6DA8C" name="TABLE_60_Zaposleni_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:50:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="064E1C0E-84A7-0D3B-2C1C-11C3157F398A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F3CB548-83CA-EFC4-149B-68FAA52FFF24" name="TABLE_60_Transport_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:50:05 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463F7763-F594-2151-05CD-A50C0A5ED61C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

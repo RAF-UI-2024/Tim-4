@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBAFFB8F-CC30-89BE-E755-6C395258CFE6" name="Transport">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:40:42 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_59</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transporta" id="18F4490E-4590-4651-E4F0-CA8FB2A601BF">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_porudzbine" id="40A967E3-785B-D0FA-252B-6179A3DBAA9E">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C382FAAA-125B-A9E7-E583-5F1BD3092650" referredColumn="712BB5DF-4842-F80C-A205-E217ED796031"/>
+</associations>
+</Column>
+<Column name="id_prve_lokacije" id="C35A9257-928F-D164-8583-E73A3D5931B2">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A9C1BC9-D232-E09E-D2A6-4443FBF3A582" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+<Column name="id_druge_lokacije" id="28306592-CA96-E704-FC9E-FE6B16FD723A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B376BF3F-448B-1BF8-42E3-F915914BFE52" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+</associations>
+</Column>
+<Column name="id_prevoznog_sredstva" id="F7A3E9BD-634B-6A15-12C2-9BC35E6A02CE">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:47:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE1DCCA5-E531-8037-4C23-17C05C2E0791" referredColumn="4E0057F8-61D4-2BEF-4985-7FC9E82A876A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F11AAD7-1E6F-A9DC-3DE3-00573761D3F9" name="Transport_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18F4490E-4590-4651-E4F0-CA8FB2A601BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DA13FB3-C62C-8E08-E763-BCFF14355000" name="TABLE_59_Porudzbina_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40A967E3-785B-D0FA-252B-6179A3DBAA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FB84358-3083-D926-E288-952167165781" name="TABLE_59_Lokacija_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35A9257-928F-D164-8583-E73A3D5931B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FFECF94-CA12-E791-C930-8C7CF897A11C" name="TABLE_59_Lokacija_FKv1">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:45:06 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28306592-CA96-E704-FC9E-FE6B16FD723A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1181B37-D1BD-08FA-E1C6-5A001EBCD56C" name="Transport_Prevozno Sredstvo_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 16:47:58 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7A3E9BD-634B-6A15-12C2-9BC35E6A02CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

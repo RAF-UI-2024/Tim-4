@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B88AB1AA-C13D-A919-A5BB-7B0DC77DA525" containerWithKeyObject="78148401-F291-976D-A4F0-6BBD61769FE4" localFKIndex="4109794C-29A5-BBB9-1619-E37162A96986" name="Novcana Kazna za Firmu_Tip novcane kazne_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-04 15:56:50 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Tip novcane kazne</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>318B5BA8-D764-32D6-3831-230155C1BE3E</referredTableID>
+<keyObject>EADBDB8A-E0BE-8357-4ABB-92085DF0E636</keyObject>
+<referredKeyID>EADBDB8A-E0BE-8357-4ABB-92085DF0E636</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
