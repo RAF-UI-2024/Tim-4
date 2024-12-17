@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0B6ECCC-9CA9-D160-C889-91BED2408B7E" containerWithKeyObject="D6F93393-DA6C-3C04-BEA6-82B8024E1330" localFKIndex="ADCACBD2-76AA-C005-94A7-4B050C3680F1" name="TABLE_63_Velicina Firme_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Velicina Firme</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DADD65E9-94B4-F801-0A45-6A8D09118FDC</referredTableID>
+<keyObject>682E387E-906F-7F6F-F398-28C25A822398</keyObject>
+<referredKeyID>682E387E-906F-7F6F-F398-28C25A822398</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_velicine</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -68,6 +68,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9F1905B9-4CC7-4D20-90F2-583AA611C2D0"/>
+<colUsage columnID="B4133781-0E49-D8CD-D617-E47456A88B5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4FF4D2C5-0249-4B1E-33FA-FC8042161CBA" name="TABLE_59_Partnerska Firma_FK">

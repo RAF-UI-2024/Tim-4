@@ -29,6 +29,19 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="id_velicine" id="95E34E85-330B-B93E-A53A-DCD5149A315D">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:13:32 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="299506FB-70CA-76AB-8A25-C356F8F093EB" referredColumn="E5C27F55-2B73-3291-ADE8-E8CD0C8EDA48"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2655A6C7-5814-6FEF-DE5E-80FF2F560E39" name="Partnerka Firma_PK">
@@ -40,6 +53,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF1C361D-5234-7D28-1287-745019E5DD56" name="Partnerska Firma_Velicina Firme_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:13:32 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95E34E85-330B-B93E-A53A-DCD5149A315D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

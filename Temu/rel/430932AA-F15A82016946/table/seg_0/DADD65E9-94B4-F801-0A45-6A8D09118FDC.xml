@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DADD65E9-94B4-F801-0A45-6A8D09118FDC" name="Velicina Firme">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:09:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_velicine" id="E5C27F55-2B73-3291-ADE8-E8CD0C8EDA48">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:10:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicina" id="94AB22E9-B690-846F-0060-F3C8CA051FB8">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:10:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="682E387E-906F-7F6F-F398-28C25A822398" name="Velicina Firme_PK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:10:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5C27F55-2B73-3291-ADE8-E8CD0C8EDA48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6F93393-DA6C-3C04-BEA6-82B8024E1330" name="Nivo Po Velicinama">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:39:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nivoa" id="E433B9A2-A5EB-A18C-30D9-A59AAD64C2F0">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFFC33E2-A4AD-652D-9AC6-D75AD73D5E47" referredColumn="009D6A8B-6EC1-6EB0-80E8-6BBAF40C4C27"/>
+</associations>
+</Column>
+<Column name="id_velicine" id="8B8579F1-EF80-ADC0-F5B6-DFB69A8D9AC8">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0B6ECCC-9CA9-D160-C889-91BED2408B7E" referredColumn="E5C27F55-2B73-3291-ADE8-E8CD0C8EDA48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A6D4245-8A17-C18F-84FA-477BD36B5B6E" name="Nivo Po Velicinama_PK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B8579F1-EF80-ADC0-F5B6-DFB69A8D9AC8"/>
+<colUsage columnID="E433B9A2-A5EB-A18C-30D9-A59AAD64C2F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADCACBD2-76AA-C005-94A7-4B050C3680F1" name="TABLE_63_Velicina Firme_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B8579F1-EF80-ADC0-F5B6-DFB69A8D9AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63F9B869-422F-27DB-A230-A5D2C46D73BE" name="TABLE_63_Nivo Novcane Kazne_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E433B9A2-A5EB-A18C-30D9-A59AAD64C2F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

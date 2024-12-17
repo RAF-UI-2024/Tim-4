@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FA53A5D-D081-5FEC-043E-7F5CAA96FF0B" containerWithKeyObject="D1FE03D4-924D-321E-8A64-AE4329EFD3FB" localFKIndex="609E5779-0619-5FF4-8C27-998A4EDCADBE" name="TABLE_54_Tip novcane kazne_FK">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-12-04 16:01:23 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFFC33E2-A4AD-652D-9AC6-D75AD73D5E47" containerWithKeyObject="D6F93393-DA6C-3C04-BEA6-82B8024E1330" localFKIndex="63F9B869-422F-27DB-A230-A5D2C46D73BE" name="TABLE_63_Nivo Novcane Kazne_FK">
+<createdBy>munja</createdBy>
+<createdTime>2024-12-17 14:41:11 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<referredTableLongName>Tip novcane kazne</referredTableLongName>
+<referredTableLongName>Nivo Novcane Kazne</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>318B5BA8-D764-32D6-3831-230155C1BE3E</referredTableID>
 <keyObject>EADBDB8A-E0BE-8357-4ABB-92085DF0E636</keyObject>
 <referredKeyID>EADBDB8A-E0BE-8357-4ABB-92085DF0E636</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_tipa</refColNames>
+<refColNames>id_nivoa</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
