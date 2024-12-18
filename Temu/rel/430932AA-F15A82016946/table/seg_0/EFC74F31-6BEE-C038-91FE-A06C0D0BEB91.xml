@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFC74F31-6BEE-C038-91FE-A06C0D0BEB91" name="Jezici proizvoda">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:09:54 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_69</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jezika" id="C766FCE7-B00E-0F4E-9655-095B2FAEF4D5">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:12:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78A5574A-A547-189A-64D9-6FA4F637045B" referredColumn="A72ED6D2-F894-AE4F-300B-F8DA105C6088"/>
+</associations>
+</Column>
+<Column name="id_proizvoda" id="A3129B22-4C63-4345-AFAF-B7F2ECD1A9F0">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:12:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1ED068-75C5-D3A4-8B74-F2FE14DF63ED" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F51180CD-8883-348C-345F-925F3390A7D3" name="Jezici proizvoda_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:12:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C766FCE7-B00E-0F4E-9655-095B2FAEF4D5"/>
+<colUsage columnID="A3129B22-4C63-4345-AFAF-B7F2ECD1A9F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9B53289-F650-F344-A4E9-FAC3E4C69AB0" name="TABLE_69_Jezik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:12:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C766FCE7-B00E-0F4E-9655-095B2FAEF4D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39779F23-BA8E-CA7C-5B60-4C22CA8CE019" name="TABLE_69_Proizvod_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:12:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3129B22-4C63-4345-AFAF-B7F2ECD1A9F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

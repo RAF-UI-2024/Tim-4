@@ -48,6 +48,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE8D928F-438E-B829-0C85-7291322F64EA" referredColumn="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
+</associations>
 </Column>
 <Column name="id_rezultata" id="85D938CB-E8D4-C491-6F76-43486DDB7C6C">
 <createdBy>Administrator</createdBy>
@@ -61,20 +64,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0272CB4E-AF85-266E-8BD7-B3850ECB935C" referredColumn="3D0C6B2D-ED7B-1C6F-24B2-FF01E6826127"/>
-</associations>
-</Column>
-<Column name="Korisnik_id_Osobe" id="7F244B4D-B35E-5FCB-9501-16F88B8765AA">
-<createdBy>munja</createdBy>
-<createdTime>2024-11-06 16:14:10 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DE8D928F-438E-B829-0C85-7291322F64EA" referredColumn="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
 </associations>
 </Column>
 </columns>
@@ -97,7 +86,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7F244B4D-B35E-5FCB-9501-16F88B8765AA"/>
+<colUsage columnID="F8F916C0-49E1-9487-17F7-A3C2D9E90588"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F9EDD9B9-5FE0-A731-97C9-09F6B4901357" name="  Žalbe_Rezultati Inspekcije_FK">

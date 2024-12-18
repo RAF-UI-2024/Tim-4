@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4D101DF-7D9D-911D-5893-CC986A7D9CD2" name="Grad">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:27:31 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5CE5BE6-92F1-37AB-155A-E222C861BDD2" name="Deo grada">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:15:21 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<ordsAlias>table_21</ordsAlias>
+<ordsAlias>table_71</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_grada" id="7F708244-C1E7-5922-F5CB-6BC0BF712149">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:30:17 UTC</createdTime>
+<Column name="id_dela_grada" id="8DA465D4-FD0C-9E49-C3B2-C45CB2898B8A">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:16:16 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="89ADACEA-F42C-931A-7FFD-A943E75582E9" referredColumn="233A14D7-DA21-3AAC-9436-5786DC7E1BE5"/>
+<colAssociation fkAssociation="79538EE1-86E6-3E78-D9AB-173FCD11A98F" referredColumn="233A14D7-DA21-3AAC-9436-5786DC7E1BE5"/>
 </associations>
 </Column>
-<Column name="id_drzave" id="2372775A-013E-2A77-8523-9983A305F2C0">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:34:05 UTC</createdTime>
+<Column name="id_grada" id="0661FE90-75B3-3760-8529-9EF4AFB2A362">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 17:20:35 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,40 +31,40 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7DD3328D-455A-237C-C193-666DC8A91C6B" referredColumn="A3886D27-7E1F-BF1A-540E-780DFDDF2D9A"/>
+<colAssociation fkAssociation="BDC3558D-238C-902A-EA3C-DA96C9864276" referredColumn="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2D87A994-DDCB-A42E-DD46-92280138AF80" name="Grad_PK">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:30:17 UTC</createdTime>
+<ind_PK_UK id="E6A2262D-FE8F-E781-A794-EBC05326BDBB" name="Deo grada_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:16:16 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
+<colUsage columnID="8DA465D4-FD0C-9E49-C3B2-C45CB2898B8A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EE078975-6262-4896-9A40-2381A288C9E1" name="Grad_Drzava_FK">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:34:25 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2372775A-013E-2A77-8523-9983A305F2C0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6BBAB3C6-7904-7798-3563-16E844021A5E" name="Grad_Mesto_FK">
+<ind_PK_UK id="527B1562-B0B1-A857-8524-9612EBEB5EE8" name="Deo grada_Mesto_FK">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-12-18 17:15:35 UTC</createdTime>
+<createdTime>2024-12-18 17:15:19 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7F708244-C1E7-5922-F5CB-6BC0BF712149"/>
+<colUsage columnID="8DA465D4-FD0C-9E49-C3B2-C45CB2898B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59B92453-7685-7C57-5382-0956D387AC88" name="Deo grada_Grad_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 17:20:35 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0661FE90-75B3-3760-8529-9EF4AFB2A362"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

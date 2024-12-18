@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65FD0E27-541D-6465-8540-34CE3A445788" name="Pravila za države">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:53:48 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_66</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_države" id="FF382F49-0A73-513D-DFB9-7247F656CE75">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:55:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EF61367-0A88-BF3D-1CEB-983AA704C6CD" referredColumn="A3886D27-7E1F-BF1A-540E-780DFDDF2D9A"/>
+</associations>
+</Column>
+<Column name="id_pravila" id="72353CEB-354E-FD31-A848-0956E85B8C36">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:55:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4A92ACA-A9AB-B154-1374-96CDD9AA5B1C" referredColumn="5C5145B8-4B36-91C5-14E5-6596DBEDC3DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A04FF87-4501-CD73-9E1E-9A504AA5565C" name="Pravila za države_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:55:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF382F49-0A73-513D-DFB9-7247F656CE75"/>
+<colUsage columnID="72353CEB-354E-FD31-A848-0956E85B8C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="501B4432-4A09-A3AB-AD05-2DF8944AA358" name="TABLE_66_Drzava_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:55:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF382F49-0A73-513D-DFB9-7247F656CE75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E29808BA-EE17-90E5-9609-52DF631D9F3F" name="TABLE_66_Pravilo uvoza_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:55:43 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72353CEB-354E-FD31-A848-0956E85B8C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

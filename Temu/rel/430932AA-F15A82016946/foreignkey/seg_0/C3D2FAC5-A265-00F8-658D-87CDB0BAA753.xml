@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3D2FAC5-A265-00F8-658D-87CDB0BAA753" containerWithKeyObject="790E7197-77D3-A719-9590-75DCCBA6F9FC" localFKIndex="755DAC7F-A8E6-E7B8-D53D-77F22D4193D1" name="TABLE_65_Merna jedinica_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:46:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Merna jedinica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65E69AB6-620E-F61F-501E-04735201364A</referredTableID>
+<keyObject>72285C66-6404-4575-DE77-CA11E988E2C1</keyObject>
+<referredKeyID>72285C66-6404-4575-DE77-CA11E988E2C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_merne_jedinice</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48BF4F35-5589-4EB6-26FD-E63CE12757E4" containerWithKeyObject="5E43F273-9A31-0AD4-6AC1-EFFCF6221EAA" localFKIndex="D2F3E7E2-F3CA-6B54-EB18-F0085F4C9A47" name="Osnovna merna jedinica_Mera_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:06:32 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Mera</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D77CDD51-E964-5A9A-148D-482C9A62614A</referredTableID>
+<keyObject>B9814815-289A-C37A-9DB0-A2B58F3B17C9</keyObject>
+<referredKeyID>B9814815-289A-C37A-9DB0-A2B58F3B17C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mere</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

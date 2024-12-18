@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C1ECEE7-7AA7-F470-FBD9-61CBB176D2AE" name="Lokacija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C7A26B7-7486-60E4-0F1B-02313CE80BC9" name="Odnos">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:18:28 UTC</createdTime>
+<createdTime>2024-12-18 15:59:23 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_67</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_lokacije" id="4D46656F-4EE6-D697-83A9-736F69DC65C8">
+<Column name="id_odnosa" id="32908F0C-5D31-BB02-867D-54CEAFC089D3">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_mesta" id="38494678-2F6B-5011-F423-C1BC24998BAA">
+<Column name="id_izvedene_jedinice" id="FD832CA4-49CA-8629-315A-C9BCDBEAA081">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,23 +28,25 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F7FFC7BE-5D25-7378-1533-AA95D6228862" referredColumn="233A14D7-DA21-3AAC-9436-5786DC7E1BE5"/>
+<colAssociation fkAssociation="BDD6AD97-F299-267F-5032-3E255DB70971" referredColumn="60C1C2F8-44C6-150B-A541-1F0D72826911"/>
 </associations>
 </Column>
-<Column name="grad" id="043FDA68-0AD0-80E7-26DE-D2842244969A">
+<Column name="id_osnovne_jedinice" id="D3926338-4DC8-A2B1-BFFB-5B3C12F1B225">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5FC3A83-764B-F213-78DC-78FA04701DBD" referredColumn="5F1E4A35-FD28-D86B-FF8E-5994CFDCE71C"/>
+</associations>
 </Column>
-<Column name="postanski_broj" id="956A983D-37CC-17ED-DB80-99BD40C508D8">
+<Column name="kolicina" id="C844DDE1-CABC-7CFE-E230-84C01040D3BE">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,38 +54,37 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="adresa" id="39473EB9-7FA9-D2FE-04D1-0FB3B341C1CB">
-<createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D3588E03-82F5-8D50-B775-53C5C09A8495" name="Lokacija_PK">
+<ind_PK_UK id="13432512-6F32-1C0B-D848-D64EEBA0DA43" name="Odnos_PK">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-10-09 14:29:39 UTC</createdTime>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
+<colUsage columnID="32908F0C-5D31-BB02-867D-54CEAFC089D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="05A7322D-712C-3538-8709-273E39EBF503" name="Lokacija_Mesto_FK">
+<ind_PK_UK id="66CBF0D4-3459-16D8-96A2-DA5C6F248DEA" name="TABLE_67_Osnovna merna jedinica_FK">
 <createdBy>Ana Mandic</createdBy>
-<createdTime>2024-12-18 16:24:53 UTC</createdTime>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="38494678-2F6B-5011-F423-C1BC24998BAA"/>
+<colUsage columnID="D3926338-4DC8-A2B1-BFFB-5B3C12F1B225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C38E6DCD-1F0E-FA2A-BAF5-6170838CE2A8" name="TABLE_67_Izvedena merna jedinica_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:02:07 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD832CA4-49CA-8629-315A-C9BCDBEAA081"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65E69AB6-620E-F61F-501E-04735201364A" name="Merna jedinica">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:33:35 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_61</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_merne_jedinice" id="FC66041C-1D64-5BD2-D7A9-5AE3AFA5B838">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:36:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="EFCC9A0B-F804-425C-E72D-29BDCAB2E21F">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:36:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="simbol" id="BA9578E0-129A-C7B0-A62E-B8CF2A0D81E9">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:36:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72285C66-6404-4575-DE77-CA11E988E2C1" name="Merna jedinica_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:36:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC66041C-1D64-5BD2-D7A9-5AE3AFA5B838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

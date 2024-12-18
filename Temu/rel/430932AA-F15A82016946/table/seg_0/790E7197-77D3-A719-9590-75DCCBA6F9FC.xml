@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="790E7197-77D3-A719-9590-75DCCBA6F9FC" name="Izvedena merna jedinica">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:44:12 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_merne_jedinice" id="60C1C2F8-44C6-150B-A541-1F0D72826911">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:46:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3D2FAC5-A265-00F8-658D-87CDB0BAA753" referredColumn="FC66041C-1D64-5BD2-D7A9-5AE3AFA5B838"/>
+</associations>
+</Column>
+<Column name="id_osnovne_merne_jedinice" id="700881CA-6A1E-7235-6F74-8999B0D633F8">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:46:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24A51DE3-7CA5-9BEA-CF44-4063A230C94C" referredColumn="5F1E4A35-FD28-D86B-FF8E-5994CFDCE71C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="003E490A-01EA-1E9E-A30A-5AEB8EE07CE0" name="Izvedena merna jedinica_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:46:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C1C2F8-44C6-150B-A541-1F0D72826911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0FD697A-D74C-2898-C0B1-52E624042934" name="TABLE_65_Osnovna merna jedinica_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:46:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="700881CA-6A1E-7235-6F74-8999B0D633F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="755DAC7F-A8E6-E7B8-D53D-77F22D4193D1" name="TABLE_65_Merna jedinica_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:46:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C1C2F8-44C6-150B-A541-1F0D72826911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

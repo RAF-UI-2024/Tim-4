@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA05FEDF-57C4-743B-3DDE-05F38B5F2B0D" name="Pravilo uvoza">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:27:28 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_59</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pravila" id="5C5145B8-4B36-91C5-14E5-6596DBEDC3DC">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:31:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="9C6A916F-4988-6BEF-BC6E-3BD920CAE11C">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:31:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_proizvoda" id="4BF4E895-F750-B61B-46C4-7EC34E8CC877">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:31:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F84096B-7421-97DA-C2E7-5571A7C8F71A" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+<Column name="id_merne_jedinice" id="6EBD79A8-6EED-1276-1B0A-A66005143D75">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:37:53 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D04879C-875D-6F05-57F0-AD50D913F959" referredColumn="FC66041C-1D64-5BD2-D7A9-5AE3AFA5B838"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEF1A95E-D5BD-E9E0-B164-10E058C87ADC" name="Pravilo uvoza_PK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:31:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C5145B8-4B36-91C5-14E5-6596DBEDC3DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB8D0EB5-4558-49AA-2217-DE77EA90F98F" name="TABLE_59_Proizvod_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:31:04 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BF4E895-F750-B61B-46C4-7EC34E8CC877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0CE4B12-93E9-B7F7-787F-D99B9D26E705" name="Pravilo uvoza_Merna jedinica_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 15:37:53 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EBD79A8-6EED-1276-1B0A-A66005143D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

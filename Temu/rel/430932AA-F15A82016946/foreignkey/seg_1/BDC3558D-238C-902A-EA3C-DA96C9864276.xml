@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="685C3726-9A50-7CD5-79A5-7A893ED67E3A" containerWithKeyObject="4C1ECEE7-7AA7-F470-FBD9-61CBB176D2AE" localFKIndex="5BB25E5B-C28A-A7FA-C189-6393CB92EE7B" name="Lokacija_Grad_FK">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 13:36:58 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="BDC3558D-238C-902A-EA3C-DA96C9864276" containerWithKeyObject="C5CE5BE6-92F1-37AB-155A-E222C861BDD2" localFKIndex="59B92453-7685-7C57-5382-0956D387AC88" name="Deo grada_Grad_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 17:20:35 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <referredTableLongName>Grad</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

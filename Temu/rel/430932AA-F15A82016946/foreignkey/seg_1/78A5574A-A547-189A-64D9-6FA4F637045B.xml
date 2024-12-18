@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="78A5574A-A547-189A-64D9-6FA4F637045B" containerWithKeyObject="EFC74F31-6BEE-C038-91FE-A06C0D0BEB91" localFKIndex="A9B53289-F650-F344-A4E9-FAC3E4C69AB0" name="TABLE_69_Jezik_FK">
+<createdBy>Ana Mandic</createdBy>
+<createdTime>2024-12-18 16:12:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Jezik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3554545-AA1E-F05B-7DBC-E53399443EAD</referredTableID>
+<keyObject>80B56216-6085-D92E-0F68-5CDE7FC18514</keyObject>
+<referredKeyID>80B56216-6085-D92E-0F68-5CDE7FC18514</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_jezika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
