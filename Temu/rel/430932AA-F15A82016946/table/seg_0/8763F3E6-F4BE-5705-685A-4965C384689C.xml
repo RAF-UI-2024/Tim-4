@@ -31,6 +31,19 @@
 <colAssociation fkAssociation="D726B2D7-2366-EA87-680F-9C13CACCEA5C" referredColumn="3D0C6B2D-ED7B-1C6F-24B2-FF01E6826127"/>
 </associations>
 </Column>
+<Column name="id_korisnika" id="37FA62A1-F74A-23C5-B06D-F92FA0748D65">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:31:01 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F46609F2-0C18-78D1-5A8D-EC18A09E9304" referredColumn="2802504D-569F-2BCE-5F6E-36103FDA2AA1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F851785D-CAC5-6A68-4100-ACA53A7B8A2C" name="Povracaj_PK">
@@ -52,6 +65,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6590D54F-8F3E-387A-D917-D1F2C336A00B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D38A7DB-191C-6F3A-2285-B354E31C5AD2" name="Povracaj_Korisnik_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:31:24 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37FA62A1-F74A-23C5-B06D-F92FA0748D65"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

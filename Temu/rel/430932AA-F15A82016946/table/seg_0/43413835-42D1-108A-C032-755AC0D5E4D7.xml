@@ -34,6 +34,19 @@
 <colAssociation fkAssociation="713E6A00-9311-BC62-A3A2-771A621DBC05" referredColumn="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6"/>
 </associations>
 </Column>
+<Column name="id_dogadjaja" id="5DE0805F-8F00-07FB-E402-F48EF9A9D762">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:33:35 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C2CB112-891D-E537-A3F0-D7FF608F9BBC" referredColumn="B456DD6D-8143-08E9-861D-C9714E889EF1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="06807532-85B6-AFEF-00AE-DA9E7C61C525" name="Kuriska Sluzba i istributivni Centar_PK">
@@ -46,6 +59,7 @@
 <indexColumnUsage>
 <colUsage columnID="AF910323-0B3F-F0EE-F9E1-6BF6241C1D42"/>
 <colUsage columnID="01E9532A-EDAE-179E-C4DE-6EC7BF4F4EBE"/>
+<colUsage columnID="5DE0805F-8F00-07FB-E402-F48EF9A9D762"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="5C215D48-A07D-7740-2133-4B27C05022CF" name="TABLE_44_Distibutivni Centar_FK">
@@ -66,6 +80,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="01E9532A-EDAE-179E-C4DE-6EC7BF4F4EBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFA74DCF-1A3F-ABC1-93C8-AF4D7DC20555" name="Kuriska Sluzba i Distributivni Centar_Vrste dogadjaja_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:34:55 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DE0805F-8F00-07FB-E402-F48EF9A9D762"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

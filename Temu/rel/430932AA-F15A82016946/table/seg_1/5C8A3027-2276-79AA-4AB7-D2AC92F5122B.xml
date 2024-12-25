@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="5C8A3027-2276-79AA-4AB7-D2AC92F5122B" name="Povracaj Novca">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:20:56 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_71</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_povracaja" id="D4D9301D-74C0-0E16-8577-C691945D1262">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:22:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ECDD7D3-AF00-7416-9D6F-23F45DF7AFD1" referredColumn="1552F26A-ED52-A6DE-5F58-B3B4A25E4BD2"/>
+</associations>
+</Column>
+<Column name="id_cene" id="217B7CCD-9A1E-CF25-D220-7F44415E9A1A">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:22:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="770C701E-2753-E9C2-494C-36315DF5874C" referredColumn="0D017F33-5ED7-C04A-FA6C-E32C0DBEC784"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5F2AE82-51AC-6E9B-6339-FA5191DBE83E" name="Povracaj Nova_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:22:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4D9301D-74C0-0E16-8577-C691945D1262"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FED59E45-BD1D-A0A3-CEB7-987A273E4E55" name="Povracaj Novca_Korisnik_FKv1">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:22:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4D9301D-74C0-0E16-8577-C691945D1262"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55CD3770-44D6-3788-53D2-6E18C47B1193" name="Povracaj Nova_Cena_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:23:39 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="217B7CCD-9A1E-CF25-D220-7F44415E9A1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

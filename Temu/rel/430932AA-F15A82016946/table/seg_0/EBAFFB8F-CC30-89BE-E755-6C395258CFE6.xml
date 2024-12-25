@@ -71,6 +71,19 @@
 <colAssociation fkAssociation="BE1DCCA5-E531-8037-4C23-17C05C2E0791" referredColumn="4E0057F8-61D4-2BEF-4985-7FC9E82A876A"/>
 </associations>
 </Column>
+<Column name="id_dogadjaja" id="9DAF2307-8A26-7115-C616-5885AD73B730">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:37:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E547A04-02E7-3E4A-93B0-D7E28C38FB6C" referredColumn="B456DD6D-8143-08E9-861D-C9714E889EF1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7F11AAD7-1E6F-A9DC-3DE3-00573761D3F9" name="Transport_PK">
@@ -82,6 +95,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="18F4490E-4590-4651-E4F0-CA8FB2A601BF"/>
+<colUsage columnID="9DAF2307-8A26-7115-C616-5885AD73B730"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9DA13FB3-C62C-8E08-E763-BCFF14355000" name="TABLE_59_Porudzbina_FK">
@@ -122,6 +136,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F7A3E9BD-634B-6A15-12C2-9BC35E6A02CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D62E1F2A-8E01-B98E-F53F-F0ACBEFDB6C0" name="Transport_Vrste dogadjaja_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:37:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DAF2307-8A26-7115-C616-5885AD73B730"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

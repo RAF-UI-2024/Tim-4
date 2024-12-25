@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="A4C66E1A-2947-1910-228F-4BB64BA3B34E" containerWithKeyObject="B2F6D581-92D3-7889-6AFA-ACD83063B28F" localFKIndex="FC61B278-7B17-F37B-A06C-37A69D5D71FE" name="TABLE_82_Isporuka Porudzbine_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:24:47 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<referredTableLongName>Isporuka Porudzbine</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FA1100F-372E-43C1-D7C7-18CFC048587F</referredTableID>
+<keyObject>02DE44C2-88EB-882F-8E50-394238BF085D</keyObject>
+<referredKeyID>02DE44C2-88EB-882F-8E50-394238BF085D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_isporuke</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

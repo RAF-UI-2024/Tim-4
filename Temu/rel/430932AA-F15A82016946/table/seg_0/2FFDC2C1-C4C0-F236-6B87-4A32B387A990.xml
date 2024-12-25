@@ -31,6 +31,19 @@
 <colAssociation fkAssociation="7241E82C-2618-B737-A04E-37592231E5CE" referredColumn="4D46656F-4EE6-D697-83A9-736F69DC65C8"/>
 </associations>
 </Column>
+<Column name="id_dogadjaja" id="65AD09F8-29EF-E98C-194D-D87D6BD86240">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:39:40 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2732A66D-510D-D42B-0E9D-5909E9C967D7" referredColumn="B456DD6D-8143-08E9-861D-C9714E889EF1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7CC49F64-77CE-B19B-6C68-3F4ADA4CAE57" name="Carina_PK">
@@ -42,6 +55,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1D987142-C7B8-D78B-1DB5-FCFCE5EA35A2"/>
+<colUsage columnID="65AD09F8-29EF-E98C-194D-D87D6BD86240"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D04A680E-4A92-37C1-DC13-5EA3817AF22A" name="Carina_Lokacija_FK">
@@ -52,6 +66,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6E4D879B-B0D0-B549-CAC5-16AB32BE439C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDC9D402-156C-E253-E049-D052EBB77E9F" name="Carina_Vrste dogadjaja_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:39:40 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65AD09F8-29EF-E98C-194D-D87D6BD86240"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="8C118AC2-3E81-2158-D73A-6F4459DA343D" name="Status Dogadjaja">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:42:50 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_86</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_statusa" id="69067FB0-F707-2818-3796-023616685800">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:43:34 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="C7849925-6032-0999-D91E-F9259948DBB2">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:43:34 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="104F7294-5326-AADF-E4D1-CBD6D7A7CDBA" name="Status Dogadjaja_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:43:34 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69067FB0-F707-2818-3796-023616685800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

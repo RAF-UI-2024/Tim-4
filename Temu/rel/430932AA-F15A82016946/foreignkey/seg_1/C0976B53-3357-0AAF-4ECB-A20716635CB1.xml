@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0037F72-6B57-73FE-4647-8CC18B00F846" containerWithKeyObject="9FA1100F-372E-43C1-D7C7-18CFC048587F" localFKIndex="1AEC2C73-8630-F000-750A-613BFF68871E" name="TABLE_39_Distibutivni Centar_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="C0976B53-3357-0AAF-4ECB-A20716635CB1" containerWithKeyObject="B2F6D581-92D3-7889-6AFA-ACD83063B28F" localFKIndex="495879C4-2F38-BF59-2830-324B6476998A" name="TABLE_82_Distibutivni Centar_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:15:22 UTC</createdTime>
+<createdTime>2024-12-25 19:24:47 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <referredTableLongName>Distibutivni Centar</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

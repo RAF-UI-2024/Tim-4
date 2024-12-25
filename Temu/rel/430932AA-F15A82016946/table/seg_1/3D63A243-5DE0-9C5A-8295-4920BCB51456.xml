@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="3D63A243-5DE0-9C5A-8295-4920BCB51456" name="Firme istog partnera">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:53:26 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_76</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_firme1" id="4CCD8F12-CFD4-8D18-F258-A5E1C2AC5595">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:55:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D7CF07F-5BE5-2C1A-99F8-1EA816402FAF" referredColumn="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+</associations>
+</Column>
+<Column name="id_firme2" id="08580F3E-8644-56B9-EA0F-B8DBA0C22505">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:55:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="028601CB-74EA-874B-ACB0-D9ED187509FD" referredColumn="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD39DF91-398B-4A26-1901-91CFF54E12A1" name="Firme istog partnera_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:55:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCD8F12-CFD4-8D18-F258-A5E1C2AC5595"/>
+<colUsage columnID="08580F3E-8644-56B9-EA0F-B8DBA0C22505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A69A88B1-B2F2-4D04-5DE8-A5A1EF84C43C" name="Firme istog partnera_Partnerska Firma_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:55:11 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCD8F12-CFD4-8D18-F258-A5E1C2AC5595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7470D270-285C-7624-DA78-A83B2FCB0913" name="Firme istog partnera_Partnerska Firma_FKv2">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:55:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08580F3E-8644-56B9-EA0F-B8DBA0C22505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

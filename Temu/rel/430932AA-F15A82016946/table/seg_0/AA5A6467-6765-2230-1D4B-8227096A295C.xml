@@ -34,6 +34,20 @@
 <colAssociation fkAssociation="9501F3C5-EB8D-BDA2-9EBC-D281F239635A" referredColumn="18F4490E-4590-4651-E4F0-CA8FB2A601BF"/>
 </associations>
 </Column>
+<Column name="Transport_id_dogadjaja" id="D5DBA25D-2F92-146D-A339-952C9B288D37">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:37:29 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9501F3C5-EB8D-BDA2-9EBC-D281F239635A" referredColumn="9DAF2307-8A26-7115-C616-5885AD73B730"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="FEB330EF-CC61-2B1F-FC80-F61F11BDF691" name="Zaposleni_u_transportu_PK">
@@ -66,6 +80,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="463F7763-F594-2151-05CD-A50C0A5ED61C"/>
+<colUsage columnID="D5DBA25D-2F92-146D-A339-952C9B288D37"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

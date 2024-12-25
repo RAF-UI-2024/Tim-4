@@ -44,19 +44,6 @@
 <colAssociation fkAssociation="B3AE424A-3CD3-CE39-1E7C-FED3EB1B6725" referredColumn="F1FFCA72-ABE1-44FA-642A-1B2AEC8113FB"/>
 </associations>
 </Column>
-<Column name="id_distributivnog_centra" id="28AD1D9D-5E32-9C07-9F9E-B34DFC549F47">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:15:22 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D0037F72-6B57-73FE-4647-8CC18B00F846" referredColumn="1E8E45C9-91AF-4C64-7FA1-426EA37FBFC6"/>
-</associations>
-</Column>
 <Column name="id_lokacije" id="3D42A211-1D7B-B09A-8F9D-0521F10EE785">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 15:15:22 UTC</createdTime>
@@ -120,17 +107,7 @@
 <colUsage columnID="668F2E8F-7AF6-ADF1-23AA-2E0DFC273AD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1AEC2C73-8630-F000-750A-613BFF68871E" name="TABLE_39_Distibutivni Centar_FK">
-<createdBy>Administrator</createdBy>
-<createdTime>2024-10-30 15:15:22 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="28AD1D9D-5E32-9C07-9F9E-B34DFC549F47"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="195F5469-8507-1745-D057-BAED60D35DE0" name="TABLE_39_Kurirska sluzba_FK">
+<ind_PK_UK id="195F5469-8507-1745-D057-BAED60D35DE0" name="TABLE_39_Distibutivni Centar_FKv1">
 <createdBy>Administrator</createdBy>
 <createdTime>2024-10-30 15:15:22 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>

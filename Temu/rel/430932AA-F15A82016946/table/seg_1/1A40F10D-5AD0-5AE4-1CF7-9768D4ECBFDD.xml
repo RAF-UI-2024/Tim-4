@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1A40F10D-5AD0-5AE4-1CF7-9768D4ECBFDD" name="Prodavnica">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:00:37 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_79</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prodavnice" id="164F4411-06DF-7AE3-8286-4B7BC9A7BB92">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:01:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_firme" id="94FEA0AB-C01D-85F9-5D1B-BEE956DB093E">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:01:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52C3A0D3-4B3B-75CE-C819-D96D2D0F5324" referredColumn="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B77F3DD-0CF9-305A-93A9-5C4612828AB3" name="Prodavnica_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:01:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164F4411-06DF-7AE3-8286-4B7BC9A7BB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47474BDF-8E39-6850-60C0-0775212C3138" name="TABLE_79_Partnerska Firma_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:01:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94FEA0AB-C01D-85F9-5D1B-BEE956DB093E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

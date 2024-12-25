@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="95520F3B-7EDA-4441-78C9-CFC444BEF6FB" name="Proizvodi u Prodavnicama">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:09:24 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_81</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prodavnice" id="465404A3-2CEC-148D-22F8-EA7A2377E09E">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:10:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F73697B-E18C-C19B-197F-ED4ABC817C6F" referredColumn="164F4411-06DF-7AE3-8286-4B7BC9A7BB92"/>
+</associations>
+</Column>
+<Column name="id_proizvoda" id="54996C96-EBF9-2CB2-B7C6-4FBE7B9F9AA5">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:10:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0971BB90-7002-2FFC-0E41-FA9E9B95C88A" referredColumn="9A4D2765-0660-A6DB-41A2-D07F2B82DA90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A671939C-4B96-4AD3-1934-75E51F3FA06C" name="Proizvodi u Prodavnicama_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:10:21 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54996C96-EBF9-2CB2-B7C6-4FBE7B9F9AA5"/>
+<colUsage columnID="465404A3-2CEC-148D-22F8-EA7A2377E09E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4E4654C-3BF2-BE8D-759E-8CE257D5302F" name="Proizvodi u Prodavnicama_Proizvod_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:11:38 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54996C96-EBF9-2CB2-B7C6-4FBE7B9F9AA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5696546B-1585-02F0-425F-9C57F30C252B" name="Proizvodi u Prodavnicama_Prodavnica_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:11:38 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="465404A3-2CEC-148D-22F8-EA7A2377E09E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

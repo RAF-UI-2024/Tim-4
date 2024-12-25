@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F3B525A-197D-BE78-3A6A-FF298DF7B7EB" name="Partnerska Firma">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="0051D9DE-D381-0584-D756-1A71598BA0CD" name="Promena velicine firme">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-11-26 16:56:46 UTC</createdTime>
+<createdTime>2024-12-25 18:39:38 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
-<ordsAlias>table_57</ordsAlias>
+<ordsAlias>table_74</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_firme" id="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D">
+<Column name="id_promene" id="169EBC7D-C700-8D6A-CF08-842C5AEBB061">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-11-26 16:57:36 UTC</createdTime>
+<createdTime>2024-12-25 18:41:22 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="01F76708-DB99-4666-D9EF-10269ECB8869">
+<Column name="id_velicine" id="F33DE301-2323-FC2B-46C6-746D29705C5E">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-11-26 16:57:36 UTC</createdTime>
-<ownerDesignName>Temu</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="id_velicine" id="95E34E85-330B-B93E-A53A-DCD5149A315D">
-<createdBy>munja</createdBy>
-<createdTime>2024-12-17 14:13:32 UTC</createdTime>
+<createdTime>2024-12-25 18:41:22 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,44 +28,52 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D1BF49A2-86F9-1446-C7E8-E5CCD0C08B94" referredColumn="F33DE301-2323-FC2B-46C6-746D29705C5E"/>
+<colAssociation fkAssociation="3B959779-C1C6-DA64-8FEE-70396F5F473E" referredColumn="E5C27F55-2B73-3291-ADE8-E8CD0C8EDA48"/>
 </associations>
 </Column>
-<Column name="id_promene" id="90B1D157-8EBA-7FFF-A3B4-56E554E92067">
+<Column name="datum_od" id="47F0B06C-2C58-5C45-3B43-254BAFE782E1">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-12-25 18:43:44 UTC</createdTime>
+<createdTime>2024-12-25 18:41:22 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D1BF49A2-86F9-1446-C7E8-E5CCD0C08B94" referredColumn="169EBC7D-C700-8D6A-CF08-842C5AEBB061"/>
-</associations>
+</Column>
+<Column name="datum_do" id="944BEBBE-881A-A412-D2B9-5FA88996D0ED">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 18:41:22 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2655A6C7-5814-6FEF-DE5E-80FF2F560E39" name="Partnerka Firma_PK">
+<ind_PK_UK id="5C2EE247-DF7B-BAF3-331E-D30B70742B6F" name="Promena velicine firme_PK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-11-26 16:57:36 UTC</createdTime>
+<createdTime>2024-12-25 18:41:22 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DDB4D262-8EFC-2CBB-9414-1C2F46CB4F8D"/>
+<colUsage columnID="169EBC7D-C700-8D6A-CF08-842C5AEBB061"/>
+<colUsage columnID="F33DE301-2323-FC2B-46C6-746D29705C5E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0178BBF8-AB05-44ED-60E0-99FADEB9F348" name="Partnerska Firma_Promena velicine firme_FK">
+<ind_PK_UK id="7F83AE7A-1802-C4B1-E220-8FE3582D9329" name="Promena velicine firme_Velicina Firme_FK">
 <createdBy>Administrator</createdBy>
-<createdTime>2024-12-25 18:44:42 UTC</createdTime>
+<createdTime>2024-12-25 18:41:22 UTC</createdTime>
 <ownerDesignName>Temu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="90B1D157-8EBA-7FFF-A3B4-56E554E92067"/>
-<colUsage columnID="95E34E85-330B-B93E-A53A-DCD5149A315D"/>
+<colUsage columnID="F33DE301-2323-FC2B-46C6-746D29705C5E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

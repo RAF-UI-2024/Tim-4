@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F17DFB68-3902-90BE-3446-CB6FEAC329C8" name="Dogadjaji u okviru isporuke">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:44:46 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<ordsAlias>table_87</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_isporuke" id="02422E94-3F28-8463-0B1E-18FC69C87B50">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:45:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C8A6B0E-93D9-8009-C8BC-2B3D563A207F" referredColumn="668F2E8F-7AF6-ADF1-23AA-2E0DFC273AD1"/>
+</associations>
+</Column>
+<Column name="id_dogadjaja" id="A3E56DA9-1A00-D38B-C0CC-DBE4CF060508">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:45:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CCA919B-F9C0-54C2-C5FA-19B9BA5CC3B0" referredColumn="2DCA2D63-A79C-1464-1C74-EE79EDE235DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D879614-91C0-37E2-B129-6C7E42EBCD90" name="Dogadjaji u okviru iporuke_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:45:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02422E94-3F28-8463-0B1E-18FC69C87B50"/>
+<colUsage columnID="A3E56DA9-1A00-D38B-C0CC-DBE4CF060508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B76520A-1357-1F50-3B61-682A2319BDC3" name="TABLE_87_Isporuka Porudzbine_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:45:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02422E94-3F28-8463-0B1E-18FC69C87B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4179EE2-9AB4-67B7-BC1E-2DE4A768C2A6" name="TABLE_87_Dogadjaj_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:45:52 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E56DA9-1A00-D38B-C0CC-DBE4CF060508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

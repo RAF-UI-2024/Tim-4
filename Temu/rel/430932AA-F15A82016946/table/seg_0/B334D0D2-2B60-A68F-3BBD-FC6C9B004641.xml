@@ -84,6 +84,19 @@
 <colAssociation fkAssociation="F1010586-20C8-ECEF-41B0-4DD6F6B3B7FA" referredColumn="D5E35ED2-C679-FA02-824B-C542A86EFF38"/>
 </associations>
 </Column>
+<Column name="id_dogadjaja" id="52547585-E4A0-BEBE-3306-86F1D0767B9E">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:36:07 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FD1FAAA-0857-E90C-02D4-062459F9A63E" referredColumn="B456DD6D-8143-08E9-861D-C9714E889EF1"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F9A53235-87DE-3462-0CCD-DC4396072151" name="Prevoz_PK">
@@ -95,6 +108,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D5E35ED2-C679-FA02-824B-C542A86EFF38"/>
+<colUsage columnID="52547585-E4A0-BEBE-3306-86F1D0767B9E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="AEC42FF4-7647-BA97-E1EF-482788972150" name="TABLE_52_Kurirska sluzba_FK">
@@ -145,6 +159,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BB93FBE3-0FC0-DD9E-1AFA-E4425B4D5F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E7AD39C-A6A7-9845-566C-AAEA463E8B81" name="Prevoz_Vrste dogadjaja_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2024-12-25 19:36:07 UTC</createdTime>
+<ownerDesignName>Temu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52547585-E4A0-BEBE-3306-86F1D0767B9E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
